@@ -18,7 +18,7 @@ DATA_BUCKET="smart-hub-data-${BUCKET_SUFFIX}"
 SCRIPT_BUCKET="smart-hub-scripts-${BUCKET_SUFFIX}"
 LOG_BUCKET="smart-hub-logs-${BUCKET_SUFFIX}"
 
-# step 2
+# step 2 (cloudformation #1)
 aws cloudformation create-stack \
     --stack-name smart-hub-athena-glue-stack \
     --template-body file://cloudformation/smart-hub-athena-glue.yml \
@@ -27,7 +27,7 @@ aws cloudformation create-stack \
                  ParameterKey=LogBucketName,ParameterValue=${LOG_BUCKET} \
     --capabilities CAPABILITY_NAMED_IAM
 
-# step 3
+# step 3 (copy raw data files to s3)
 # location data
 aws s3 cp data/locations/denver_co_1576656000.csv \
     s3://${DATA_BUCKET}/smart_hub_locations_csv/state=co/
@@ -60,7 +60,7 @@ aws s3 cp data/rates/ \
 aws s3 ls s3://${DATA_BUCKET}/ \
     --recursive --human-readable --summarize
 
-# step 4
+# step 4 (package lambda functions)
 pushd lambdas/athena-json-to-parquet-data || exit
 zip -r package.zip index.py
 popd || exit
@@ -81,7 +81,7 @@ pushd lambdas/athena-parquet-to-parquet-elt-data || exit
 zip -r package.zip index.py
 popd || exit
 
-# step 5
+# step 5 (copy lambda packages to s3)
 aws s3 cp lambdas/athena-json-to-parquet-data/package.zip \
     s3://${SCRIPT_BUCKET}/lambdas/athena_json_to_parquet_data/
 
@@ -97,13 +97,13 @@ aws s3 cp lambdas/athena-complex-etl-query/package.zip \
 aws s3 cp lambdas/athena-parquet-to-parquet-elt-data/package.zip \
     s3://${SCRIPT_BUCKET}/lambdas/athena_parquet_to_parquet_elt_data/
 
-# step 6
+# step 6 (cloudformation #2)
 aws cloudformation create-stack \
     --stack-name smart-hub-lambda-stack \
     --template-body file://cloudformation/smart-hub-lambda.yml \
     --capabilities CAPABILITY_NAMED_IAM
 
-# step 7
+# step 7 (run crawlers)
 aws glue start-crawler --name smart-hub-locations-csv
 aws glue start-crawler --name smart-hub-sensor-mappings-json
 aws glue start-crawler --name smart-hub-data-json
@@ -114,7 +114,7 @@ aws glue get-crawler-metrics \
     | jq -r '.CrawlerMetricsList[] | "\(.CrawlerName): \(.StillEstimating), \(.TimeLeftSeconds)"' \
     | grep "^smart-hub-[A-Za-z-]*"
 
-# step 8
+# step 8 (invoke lambda functions)
 aws lambda invoke \
     --function-name athena-json-to-parquet-data \
     response.json
@@ -127,11 +127,11 @@ aws lambda invoke \
     --function-name athena-json-to-parquet-mappings \
     response.json
 
-# step 9
+# step 9 (copy etl job script to s3)
 aws s3 cp glue-scripts/rates_xml_to_parquet.py \
     s3://${SCRIPT_BUCKET}/glue_scripts/
 
-# step 10
+# step 10 (start etl job)
 aws glue start-job-run --job-name rates-xml-to-parquet
 
 # get status of most recent job (the one that is running)
@@ -141,25 +141,25 @@ aws glue get-job-run \
         --job-name rates-xml-to-parquet \
         | jq -r '.JobRuns[0].Id')"
 
-# step 11
+# step 11 (run crawler)
 aws glue start-crawler --name smart-hub-rates-parquet
 
-# step 12
+# step 12 (invoke lambda function)
 aws lambda invoke \
   --function-name athena-complex-etl-query \
   --payload "{ \"loc_id\": \"b6a8d42425fde548\",
   \"date_from\": \"2019-12-21\", \"date_to\": \"2019-12-22\"}" \
   response.json
 
-# step 13
+# step 13 (run crawler)
 aws glue start-crawler --name smart-hub-etl-tmp-output-parquet
 
-# step 14
+# step 14 (invoke lambda function)
 aws lambda invoke \
     --function-name athena-parquet-to-parquet-elt-data \
     response.json
 
-# step 15
+# step 15 (run crawler)
 aws glue start-crawler --name smart-hub-etl-output-parquet
 
 # step 16 (fix 4 table's classification: Unknown)
@@ -185,6 +185,8 @@ done
 aws glue get-tables \
     --database-name smart_hub_data_catalog \
     | jq -r '.TableList[].Name'
+
+# delete demonstration resources
 
 # delete s3 contents first
 aws s3 rm s3://${DATA_BUCKET} --recursive
