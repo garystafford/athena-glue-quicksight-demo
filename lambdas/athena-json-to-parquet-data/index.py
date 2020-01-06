@@ -2,19 +2,19 @@ import boto3
 import os
 import logging
 
-# Environment variables
+# environment variables
 data_catalog = os.getenv('DATA_CATALOG')
 data_bucket = os.getenv('DATA_BUCKET')
 
-# Variables
+# variables
 input_directory = 'smart_hub_data_json'
 output_directory = 'smart_hub_data_parquet'
 
-# Set up logging
+# logging
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-# AWS clients
+# athena client
 athena_client = boto3.client('athena')
 
 

@@ -4,22 +4,22 @@ import logging
 import json
 from typing import Dict
 
-# Environment variables
+# environment variables
 data_catalog = os.getenv('DATA_CATALOG')
 data_bucket = os.getenv('DATA_BUCKET')
 
-# Variables
+# variables
 output_directory = 'etl_tmp_output_parquet'
 
-# Uses list comprehension to generate the equivalent of:
+# uses list comprehension to generate the equivalent of:
 # ['s_01', 's_02', ..., 's_09', 's_10']
 sensors = [f's_{i:02d}' for i in range(1, 11)]
 
-# Set up logging
+# logging
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-# Athena client
+# athena client
 athena_client = boto3.client('athena')
 
 
