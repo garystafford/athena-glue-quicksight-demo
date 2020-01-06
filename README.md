@@ -152,7 +152,7 @@ aws lambda invoke \
   response.json
 
 # step 13
-aws glue start-crawler --name smart-hub-etl-output-csv
+aws glue start-crawler --name smart-hub-etl-tmp-output-parquet
 
 # step 14
 aws lambda invoke \
