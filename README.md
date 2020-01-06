@@ -162,6 +162,25 @@ aws lambda invoke \
 # step 15
 aws glue start-crawler --name smart-hub-etl-output-parquet
 
+# step 16 (fix 4 table's classification: Unknown)
+database=smart_hub_data_catalog
+tables=(smart_hub_locations_parquet sensor_mappings_parquet smart_hub_data_parquet etl_output_parquet)
+
+for table in ${tables}; do
+  fixed_table=$(aws glue get-table \
+      --database-name "${database}" \
+      --name "${table}" \
+      | jq '.Table.Parameters.classification = "parquet" | del(.Table.DatabaseName) | del(.Table.CreateTime) | del(.Table.UpdateTime) | del(.Table.CreatedBy) | del(.Table.IsRegisteredWithLakeFormation)')
+
+  fixed_table=$(echo ${fixed_table} | jq .Table)
+
+  aws glue update-table \
+  --database-name "${database}" \
+    --table-input "${fixed_table}"
+
+  echo "table '${table}' classification changed to 'parquet'"
+done
+
 # get list of tables
 aws glue get-tables \
     --database-name smart_hub_data_catalog \
