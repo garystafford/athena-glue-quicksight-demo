@@ -1,10 +1,10 @@
-# Getting Started with Data Analysis on AWS, using S3, Glue, Amazon Athena, and QuickSight
+# Getting Started with Data Analysis on AWS using AWS Glue, Amazon Athena, and QuickSight
 
-Code for the post, [Getting Started with Data Analysis on AWS, using S3, Glue, Amazon Athena, and QuickSight](https://programmaticponderings.com/).
+Code for the post, [Getting Started with Data Analysis on AWS using AWS Glue, Amazon Athena, and QuickSight](https://programmaticponderings.com/2020/01/05/getting-started-with-data-analysis-on-aws-using-s3-glue-athena-and-quicksight/).
 
-## Demonstration Commands
+## AWS CLI Commands
 
-The following is a list of the commands, included and explained in the post’s demonstration.
+The following is a list of the AWS CLI commands, which are part of the post’s demonstration.
 
 ```bash
 # step 0 (clone project)

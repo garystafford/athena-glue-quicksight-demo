@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Athena Data Source" uuid="5eee0293-5f09-4e77-83a0-784e8c325b82">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+    </data-source>
+  </component>
+</project>
