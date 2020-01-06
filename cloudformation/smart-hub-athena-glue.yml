@@ -269,19 +269,6 @@ Resources:
       - CrawlerRole
       - GlueDatabase
       - DataBucket
-  CrawlerLocationsParquet:
-    Type: AWS::Glue::Crawler
-    Properties:
-      Name: smart-hub-locations-parquet
-      Role: !GetAtt "CrawlerRole.Arn"
-      Targets:
-        S3Targets:
-          - Path: !Join ["", ["s3://", !Ref "DataBucket", "/smart_hub_locations_parquet"]]
-      DatabaseName: !Ref GlueDatabase
-    DependsOn:
-      - CrawlerRole
-      - GlueDatabase
-      - DataBucket
   CrawlerMappings:
     Type: AWS::Glue::Crawler
     Properties:
@@ -300,20 +287,6 @@ Resources:
       - CrawlerRole
       - GlueDatabase
       - DataBucket
-  CrawlerMappingsParquet:
-    Type: AWS::Glue::Crawler
-    Properties:
-      Name: smart-hub-sensor-mappings-parquet
-      Role: !GetAtt "CrawlerRole.Arn"
-      Targets:
-        S3Targets:
-          - Path: !Join ["", ["s3://", !Ref "DataBucket", "/sensor_mappings_parquet"]]
-      DatabaseName: !Ref GlueDatabase
-      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
-    DependsOn:
-      - CrawlerRole
-      - GlueDatabase
-      - DataBucket
   CrawlerUsageData:
     Type: AWS::Glue::Crawler
     Properties:
@@ -327,20 +300,6 @@ Resources:
       SchemaChangePolicy:
         UpdateBehavior: "UPDATE_IN_DATABASE"
         DeleteBehavior: "LOG"
-      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
-    DependsOn:
-      - CrawlerRole
-      - GlueDatabase
-      - DataBucket
-  CrawlerUsageDataParquet:
-    Type: AWS::Glue::Crawler
-    Properties:
-      Name: smart-hub-data-parquet
-      Role: !GetAtt "CrawlerRole.Arn"
-      Targets:
-        S3Targets:
-          - Path: !Join ["", ["s3://", !Ref "DataBucket", "/smart_hub_data_parquet"]]
-      DatabaseName: !Ref GlueDatabase
       Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
     DependsOn:
       - CrawlerRole
@@ -373,6 +332,9 @@ Resources:
         S3Targets:
           - Path: !Join ["", ["s3://", !Ref "DataBucket", "/electricity_rates_parquet"]]
       DatabaseName: !Ref GlueDatabase
+      SchemaChangePolicy:
+        UpdateBehavior: "UPDATE_IN_DATABASE"
+        DeleteBehavior: "LOG"
       Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
     DependsOn:
       - CrawlerRole
@@ -391,16 +353,6 @@ Resources:
       SchemaChangePolicy:
         UpdateBehavior: "UPDATE_IN_DATABASE"
         DeleteBehavior: "LOG"
-      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
-  CrawlerETLParquetData:
-    Type: AWS::Glue::Crawler
-    Properties:
-      Name: smart-hub-etl-output-parquet
-      Role: !GetAtt "CrawlerRole.Arn"
-      Targets:
-        S3Targets:
-          - Path: !Join ["", ["s3://", !Ref "DataBucket", "/etl_output_parquet"]]
-      DatabaseName: !Ref GlueDatabase
       Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
     DependsOn:
       - CrawlerRole
