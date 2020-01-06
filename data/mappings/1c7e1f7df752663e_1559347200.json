@@ -1,0 +1,10 @@
+{"loc_id":"1c7e1f7df752663e","id":"s_01","description":"Central Air Conditioner","location":"House","watts":3500,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_02","description":"Ceiling Fan","location":"Master Bedroom","watts":65,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_03","description":"Clothes Dryer","location":"Basement","watts":5000,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_04","description":"Clothes Washer","location":"Basement","watts":1800,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_05","description":"Dishwasher","location":"Kitchen","watts":900,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_06","description":"Flat Screen TV","location":"Living Room","watts":120,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_07","description":"Microwave Oven","location":"Kitchen","watts":1000,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_08","description":"Coffee Maker","location":"Kitchen","watts":900,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_09","description":"Hair Dryer","location":"Master Bathroom","watts":2000,"last_modified":1559347200}
+{"loc_id":"1c7e1f7df752663e","id":"s_10","description":"Refrigerator","location":"Kitchen","watts":500,"last_modified":1559347200}

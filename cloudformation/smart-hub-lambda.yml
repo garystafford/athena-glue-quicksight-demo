@@ -1,0 +1,123 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Lambdas and IAM Role for Athena-Glue demo."
+Parameters:
+  AthenaGlueStackName:
+    Type: String
+    Description: "Name of Athena-Glue CloudFormation Stack"
+    Default: "smart-hub-athena-glue-stack"
+Resources:
+  LambdaFunctionExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonS3FullAccess
+        - arn:aws:iam::aws:policy/AmazonAthenaFullAccess
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: allowLogging
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:*
+                Resource: arn:aws:logs:*:*:*
+  AthenaJSONtoParquetDataFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Description: Convert Smart Hub Data from JSON to Parquet
+      FunctionName: athena-json-to-parquet-data
+      Handler: index.handler
+      Code:
+        S3Bucket:
+          Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "ScriptBucket" ] ]
+        S3Key: lambdas/athena_json_to_parquet_data/package.zip
+      Runtime: python3.8
+      Role: !GetAtt LambdaFunctionExecutionRole.Arn
+      Environment:
+        Variables:
+          DATA_CATALOG:
+            Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "GlueDatabase" ] ]
+          DATA_BUCKET:
+            Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "DataBucket" ] ]
+  AthenaCSVtoParquetLocationsFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Description: Convert Smart Hub Locations from CSV to Parquet
+      FunctionName: athena-csv-to-parquet-locations
+      Handler: index.handler
+      Code:
+        S3Bucket:
+          Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "ScriptBucket" ] ]
+        S3Key: lambdas/athena_csv_to_parquet_locations/package.zip
+      Runtime: python3.8
+      Role: !GetAtt LambdaFunctionExecutionRole.Arn
+      Environment:
+        Variables:
+          DATA_CATALOG:
+            Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "GlueDatabase" ] ]
+          DATA_BUCKET:
+            Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "DataBucket" ] ]
+  AthenaCSVtoParquetMappingsFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Description: Convert Smart Hub Sensor Mappings from CSV to Parquet
+      FunctionName: athena-json-to-parquet-mappings
+      Handler: index.handler
+      Code:
+        S3Bucket:
+          Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "ScriptBucket" ] ]
+        S3Key: lambdas/athena_json_to_parquet_mappings/package.zip
+      Runtime: python3.8
+      Role: !GetAtt LambdaFunctionExecutionRole.Arn
+      Environment:
+        Variables:
+          DATA_CATALOG:
+            Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "GlueDatabase" ] ]
+          DATA_BUCKET:
+            Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "DataBucket" ] ]
+  AthenaComplexEtlQueryFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Description: Perform a series of complex SQL queries across multiple datasources
+      FunctionName: athena-complex-etl-query
+      Handler: index.handler
+      Code:
+        S3Bucket:
+          Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "ScriptBucket" ] ]
+        S3Key: lambdas/athena_complex_etl_query/package.zip
+      Runtime: python3.8
+      Role: !GetAtt LambdaFunctionExecutionRole.Arn
+      Environment:
+        Variables:
+          DATA_CATALOG:
+            Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "GlueDatabase" ] ]
+          DATA_BUCKET:
+            Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "DataBucket" ] ]
+  AthenaParquettoParquetETLDataFunction:
+   Type: AWS::Lambda::Function
+   Properties:
+     Description: Convert temporary ETL data to final compressed Parquet
+     FunctionName: athena-parquet-to-parquet-elt-data
+     Handler: index.handler
+     Code:
+       S3Bucket:
+         Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "ScriptBucket" ] ]
+       S3Key: lambdas/athena_parquet_to_parquet_elt_data/package.zip
+     Runtime: python3.8
+     Role: !GetAtt LambdaFunctionExecutionRole.Arn
+     Environment:
+       Variables:
+         DATA_CATALOG:
+           Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "GlueDatabase" ] ]
+         DATA_BUCKET:
+           Fn::ImportValue: !Join [ "-", [ !Ref "AthenaGlueStackName", "DataBucket" ] ]

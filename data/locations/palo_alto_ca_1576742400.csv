@@ -1,0 +1,996 @@
+lon,lat,number,street,unit,city,district,region,postcode,id,hash,tz
+-122.1349344,37.448559,1670,Channing Avenue,,,,,94303,,167cbac3c4b60601,America/Los_Angeles
+-122.1668989,37.4479807,237,Hawthorne Avenue,,,,,94301,,e7499c2c4ec6b764,America/Los_Angeles
+-122.1449938,37.4266274,406,California Avenue,,,,,94306,,5168d5e7ac91e544,America/Los_Angeles
+-122.1511071,37.4211561,2254,Oberlin Street,,,,,94306,,afdd7eaa34648a83,America/Los_Angeles
+-122.1533281,37.4409054,1135,Bryant Street,,,,,94301,,40c159f1bc1ce52f,America/Los_Angeles
+-122.1347115,37.448526,1676,Channing Avenue,,,,,94303,,0068478e6a2e6a46,America/Los_Angeles
+-122.1668602,37.4480153,231,Hawthorne Avenue,,,,,94301,,5ac872450c6fff84,America/Los_Angeles
+-122.1452118,37.4267278,408,California Avenue,,,,,94306,,1bab8af3cd86b1ce,America/Los_Angeles
+-122.1531716,37.4408464,1143,Bryant Street,,,,,94301,,7bfa363c3b248fba,America/Los_Angeles
+-122.1564528,37.4501877,530,Middlefield Road,,,,,94301,,43a66bb755f16f17,America/Los_Angeles
+-122.1136042,37.4286195,3515,Arbutus Avenue,,,,,94303,,e48a0b3b33d8b1f8,America/Los_Angeles
+-122.1668469,37.448031,229,Hawthorne Avenue,,,,,94301,,d85afffbef025f4e,America/Los_Angeles
+-122.1452319,37.4267034,410,California Avenue,,,,,94306,,5211b11e912a6a60,America/Los_Angeles
+-122.1556233,37.4502527,575,Middlefield Road,,,,,94301,,1aa36fac08c7d62c,America/Los_Angeles
+-122.1528946,37.4400817,1200,Bryant Street,,,,,94301,,29a76eb80d5bd6e0,America/Los_Angeles
+-122.1132681,37.4284005,3527,Arbutus Avenue,,,,,94303,,151daa6cb4ff13f7,America/Los_Angeles
+-122.1668315,37.4480465,227,Hawthorne Avenue,,,,,94301,,9c95fafa58664cea,America/Los_Angeles
+-122.1449031,37.4267285,392,California Avenue,,,,,94306,,c367fd2c9eb93568,America/Los_Angeles
+-122.1533053,37.440357,1160,Bryant Street,,,,,94301,,e84847445adc0edf,America/Los_Angeles
+-122.1559611,37.4504655,555,Middlefield Road,,,,,94301,,3ea9f127576f53a4,America/Los_Angeles
+-122.1142673,37.4284757,3502,Arbutus Avenue,,,,,94303,,3b2794d04298b842,America/Los_Angeles
+-122.1668142,37.448064,225,Hawthorne Avenue,,,,,94301,,a2df69ff4678cae4,America/Los_Angeles
+-122.1534393,37.4404679,1148,Bryant Street,,,,,94301,,c3bcf4c25f57ffad,America/Los_Angeles
+-122.1552504,37.4500282,603,Middlefield Road,,,,,94301,,546385de19939e45,America/Los_Angeles
+-122.1446721,37.4269952,360,California Avenue,,,,,94306,,f5e88d995a244d9e,America/Los_Angeles
+-122.1128996,37.4276154,3582,Arbutus Avenue,,,,,94303,,512e09e4db130826,America/Los_Angeles
+-122.1667935,37.4480848,223,Hawthorne Avenue,,,,,94301,,de9af76fa4a045f8,America/Los_Angeles
+-122.1551153,37.4499431,615,Middlefield Road,,,,,94301,,7ec711dd75a7804d,America/Los_Angeles
+-122.1447117,37.426953,364,California Avenue,,,,,94306,,69e6ef057d756bea,America/Los_Angeles
+-122.1535862,37.4405407,1140,Bryant Street,,,,,94301,,d3c1d8606b3b158f,America/Los_Angeles
+-122.1116365,37.4268151,3642,Arbutus Avenue,,,,,94303,,6ba4a87011b3bea5,America/Los_Angeles
+-122.1664592,37.4474903,219,Hawthorne Avenue,,,,,94301,,36e6c42adc141a09,America/Los_Angeles
+-122.1549802,37.4498579,623,Middlefield Road,,,,,94301,,dbdb60d346811136,America/Los_Angeles
+-122.1537476,37.440649,1130,Bryant Street,,,,,94301,,e1337d34415ee38f,America/Los_Angeles
+-122.1446196,37.4261872,415,California Avenue,,,,,94306,,616081a3d74942fa,America/Los_Angeles
+-122.1113265,37.4265852,3662,Arbutus Avenue,,,,,94303,,f7fde0f684f952fb,America/Los_Angeles
+-122.1654567,37.447949,262,Hawthorne Avenue,,,,,94301,,8c7e67d83f193340,America/Los_Angeles
+-122.144427,37.42618,409,California Avenue,,,,,94306,,f943d70c0e3f853b,America/Los_Angeles
+-122.1115197,37.426729,3652,Arbutus Avenue,,,,,94303,,6864b0711476fe5c,America/Los_Angeles
+-122.1539216,37.4407488,1116,Bryant Street,,,,,94301,,08bfe4e99464307d,America/Los_Angeles
+-122.1553776,37.4493907,626,Middlefield Road,,,,,94301,,0a77ac6068f8a2e9,America/Los_Angeles
+-122.1656088,37.447788,254,Hawthorne Avenue,,,,,94301,,39ab268eafaa278e,America/Los_Angeles
+-122.1444008,37.4262117,407,California Avenue,,,,,94306,,19802b0aa7419e0a,America/Los_Angeles
+-122.1552723,37.4493418,628,Middlefield Road,,,,,94301,,da341c8128599f86,America/Los_Angeles
+-122.1540619,37.440824,1106,Bryant Street,,,,,94301,,4c6ca808a134aaeb,America/Los_Angeles
+-122.1121166,37.4276954,3593,Arbutus Avenue,,,,,94303,,81964eda37ec9d64,America/Los_Angeles
+-122.1132765,37.4518383,2450,Embarcadero Way,,,,,94303,,13003dc09f196436,America/Los_Angeles
+-122.1550262,37.4491693,640,Middlefield Road,,,,,94301,,ae571bd7e9aec6e3,America/Los_Angeles
+-122.144709,37.4260964,421,California Avenue,,,,,94306,,541cec9e85a9357f,America/Los_Angeles
+-122.1541948,37.4409111,1100,Bryant Street,,,,,94301,,dcd8f3bbb93a26d6,America/Los_Angeles
+-122.1123036,37.4278261,3589,Arbutus Avenue,,,,,94303,,b2e6755a0b6dd565,America/Los_Angeles
+-122.1133934,37.4519538,2448,Embarcadero Way,,,,,94303,,0d8687d17c42a96a,America/Los_Angeles
+-122.1547353,37.4491084,660,Middlefield Road,,,,,94301,,33ca018780d7f7de,America/Los_Angeles
+-122.1503382,37.43797,1444,Bryant Street,,,,,94301,,15fe7ab888adb45c,America/Los_Angeles
+-122.143864,37.4270344,321,California Avenue,,,,,94306,,5a50ad47402e4ef2,America/Los_Angeles
+-122.1125103,37.4279601,3585,Arbutus Avenue,,,,,94303,,983bb09de37be3ff,America/Los_Angeles
+-122.1135514,37.4521898,2438,Embarcadero Way,,,,,94303,,cdad23d178ca77b2,America/Los_Angeles
+-122.1551478,37.4492459,636,Middlefield Road,,,,,94301,,ad5f966af5aca071,America/Los_Angeles
+-122.1500706,37.4383124,1440,Bryant Street,,,,,94301,,1fc6dc23473421b7,America/Los_Angeles
+-122.1441457,37.4268652,361,California Avenue,,,,,94306,,b02f1201e67f65bf,America/Los_Angeles
+-122.1112852,37.4272023,3641,Arbutus Avenue,,,,,94303,,5f04837d170a0387,America/Los_Angeles
+-122.1129829,37.4525845,2415,Embarcadero Way,,,,,94303,,e6b9cdc1052bbc81,America/Los_Angeles
+-122.1552626,37.4490784,638,Middlefield Road,,,,,94301,,ec9a9623418766f9,America/Los_Angeles
+-122.1503793,37.4384879,1404,Bryant Street,,,,,94301,,1d1906b5317bf0a2,America/Los_Angeles
+-122.1456908,37.4261465,444,California Avenue,,,,,94306,,df2a5fbfccf7edc0,America/Los_Angeles
+-122.1117046,37.4274375,3613,Arbutus Avenue,,,,,94303,,1d5917882585d537,America/Los_Angeles
+-122.1128776,37.4524697,2417,Embarcadero Way,,,,,94303,,bcb111c039a9b74d,America/Los_Angeles
+-122.1545478,37.4495854,641,Middlefield Road,,,,,94301,,927f13eb914a766c,America/Los_Angeles
+-122.13001,37.4258939,3031,Bryant Street,,,,,94306,,eb825d6b7370663f,America/Los_Angeles
+-122.1114742,37.4273311,3631,Arbutus Avenue,,,,,94303,,3da0c62599aace89,America/Los_Angeles
+-122.1454697,37.4260512,442,California Avenue,,,,,94306,,56fa3b21355aa15c,America/Los_Angeles
+-122.1124866,37.4522193,2425,Embarcadero Way,,,,,94303,,7c21235030dce3b9,America/Los_Angeles
+-122.1546153,37.449628,639,Middlefield Road,,,,,94301,,85a2bf069ff1322b,America/Los_Angeles
+-122.1301209,37.4259824,3021,Bryant Street,,,,,94306,,3aa378ddda85bd20,America/Los_Angeles
+-122.1119145,37.4275644,3605,Arbutus Avenue,,,,,94303,,25a5587125caed2a,America/Los_Angeles
+-122.144543,37.426289,403,California Avenue,,,,,94306,,23b6f1ada327e4f9,America/Los_Angeles
+-122.1132369,37.451795,2452,Embarcadero Way,,,,,94303,,9d6353a5950260b4,America/Los_Angeles
+-122.1546829,37.4496706,637,Middlefield Road,,,,,94301,,cca77300a3845a4e,America/Los_Angeles
+-122.1302633,37.4260577,3011,Bryant Street,,,,,94306,,68c5df56af0097dc,America/Los_Angeles
+-122.111875,37.4269479,3632,Arbutus Avenue,,,,,94303,,5fcb2d977847c4ba,America/Los_Angeles
+-122.1443802,37.4262368,405,California Avenue,,,,,94306,,a46e058d876c2574,America/Los_Angeles
+-122.1131914,37.4517472,2454,Embarcadero Way,,,,,94303,,32a083d8aa2a71d9,America/Los_Angeles
+-122.1548045,37.4497472,633,Middlefield Road,,,,,94301,,a7678d94ad5c53f9,America/Los_Angeles
+-122.1303859,37.4261133,3001,Bryant Street,,,,,94306,,a58f6679b5a65381,America/Los_Angeles
+-122.11204,37.4270738,3612,Arbutus Avenue,,,,,94303,,c1f67269bafaebe1,America/Los_Angeles
+-122.1441839,37.4264925,395,California Avenue,,,,,94306,,c638fe1251e48a29,America/Los_Angeles
+-122.1131452,37.451697,2458,Embarcadero Way,,,,,94303,,16820596bd06b8d5,America/Los_Angeles
+-122.1301108,37.4249677,3024,Bryant Street,,,,,94306,,4204d895af11eb76,America/Los_Angeles
+-122.1122412,37.4272135,3604,Arbutus Avenue,,,,,94303,,8c34c97ef04f18bf,America/Los_Angeles
+-122.153137,37.4486769,759,Middlefield Road,,,,,94301,,c61f6aee5d1b4ca8,America/Los_Angeles
+-122.1441649,37.4265139,393,California Avenue,,,,,94306,,96d1334261ea1ea8,America/Los_Angeles
+-122.1127914,37.4513559,2462,Embarcadero Way,,,,,94303,,0d72e55c55bc160d,America/Los_Angeles
+-122.1307225,37.4263422,2991,Bryant Street,,,,,94306,,a8cb7124cc6e78ce,America/Los_Angeles
+-122.1124343,37.4273419,3592,Arbutus Avenue,,,,,94303,,0c85ca5d1582eee7,America/Los_Angeles
+-122.1534374,37.448948,735,Middlefield Road,,,,,94301,,49da8cdcd6e2931c,America/Los_Angeles
+-122.1443286,37.4266201,381,California Avenue,,,,,94306,,d70a2ab39e548414,America/Los_Angeles
+-122.1127147,37.4512767,2464,Embarcadero Way,,,,,94303,,5fb9d090de7d45e2,America/Los_Angeles
+-122.1286441,37.4250497,3151,Bryant Street,,,,,94306,,4e09e590baeb804d,America/Los_Angeles
+-122.1441485,37.4265363,385,California Avenue,,,,,94306,,0130c05367496966,America/Los_Angeles
+-122.1539752,37.4492771,707,Middlefield Road,,,,,94301,,423be67d08c371cd,America/Los_Angeles
+-122.1126617,37.4275012,3588,Arbutus Avenue,,,,,94303,,7565dd5fc9243087,America/Los_Angeles
+-122.1122836,37.4509373,2476,Embarcadero Way,,,,,94303,,2526a5bf10daa2e9,America/Los_Angeles
+-122.1287688,37.4251427,3139,Bryant Street,,,,,94306,,f100787034ac8a4b,America/Los_Angeles
+-122.1466535,37.4435597,1333,Byron Street,,,,,94301,,de9701e3cb0794a3,America/Los_Angeles
+-122.1538401,37.449192,711,Middlefield Road,,,,,94301,,d5ae05f042a09f11,America/Los_Angeles
+-122.1059032,37.4234353,3924,Bibbits Drive,,,,,94303,,6fb14241dd936d7b,America/Los_Angeles
+-122.1155738,37.4570679,1985,Embarcadero Way,,,,,94303,,aef95c10932586ab,America/Los_Angeles
+-122.1289092,37.4252504,3127,Bryant Street,,,,,94306,,c8b9e66f4f654b97,America/Los_Angeles
+-122.1463692,37.4434002,1351,Byron Street,,,,,94301,,39da59af4bfe8915,America/Los_Angeles
+-122.1535986,37.449036,727,Middlefield Road,,,,,94301,,57422f044f2002a6,America/Los_Angeles
+-122.1053176,37.423183,3931,Bibbits Drive,,,,,94303,,ed35ea17eaf2ccd6,America/Los_Angeles
+-122.1123605,37.4509892,2472,Embarcadero Way,,,,,94303,,f2335bfcff456f51,America/Los_Angeles
+-122.1290768,37.4253032,3115,Bryant Street,,,,,94306,,11bb61c461ebb43b,America/Los_Angeles
+-122.1532863,37.4488585,741,Middlefield Road,,,,,94301,,1180dbb22d23039f,America/Los_Angeles
+-122.1480744,37.4444419,1225,Byron Street,,,,,94301,,ba3c98f15e089b8e,America/Los_Angeles
+-122.1053309,37.4233791,3925,Bibbits Drive,,,,,94303,,aa277bee1ef70ebf,America/Los_Angeles
+-122.1243839,37.4040121,4284,Los Palos Circle,,,,,94306,,1ccbb734d83650ec,America/Los_Angeles
+-122.1612231,37.4531481,150,Middlefield Road,,,,,94301,,17d7adf6c208c714,America/Los_Angeles
+-122.129215,37.4254192,3091,Bryant Street,,,,,94306,,956a32eb1e1e698a,America/Los_Angeles
+-122.1480098,37.4444043,1227,Byron Street,,,,,94301,,13077a58514f39fd,America/Los_Angeles
+-122.1053168,37.4235719,3919,Bibbits Drive,,,,,94303,,d6152974dfd5a39f,America/Los_Angeles
+-122.1245863,37.4041619,4280,Los Palos Circle,,,,,94306,,83698e4a893ac369,America/Los_Angeles
+-122.1613447,37.4532247,142,Middlefield Road,,,,,94301,,84a5a2984010fa67,America/Los_Angeles
+-122.147899,37.4443344,1231,Byron Street,,,,,94301,,942f82ab3d7ca069,America/Los_Angeles
+-122.1293499,37.4254898,3081,Bryant Street,,,,,94306,,05d7426b96f06590,America/Los_Angeles
+-122.1052961,37.4230306,3937,Bibbits Drive,,,,,94303,,d6e390a80d8cbaf5,America/Los_Angeles
+-122.118175,37.4101744,367,Whitclem Place,,,,,94306,,0fb0c830f1298445,America/Los_Angeles
+-122.1613988,37.4532588,140,Middlefield Road,,,,,94301,,95dc154ffffa5471,America/Los_Angeles
+-122.129466,37.4255702,3071,Bryant Street,,,,,94306,,482973efbf07fa30,America/Los_Angeles
+-122.1484699,37.4442167,1220,Byron Street,,,,,94301,,9ddb61885d805b6f,America/Los_Angeles
+-122.1053206,37.4239184,3907,Bibbits Drive,,,,,94303,,456cc0229a1ff510,America/Los_Angeles
+-122.117886,37.4100844,363,Whitclem Place,,,,,94306,,8c2addfe30dda424,America/Los_Angeles
+-122.1483277,37.444127,1228,Byron Street,,,,,94301,,ee0b27b4a73becba,America/Los_Angeles
+-122.1296224,37.4256496,3061,Bryant Street,,,,,94306,,3828359aadee8663,America/Los_Angeles
+-122.1053313,37.423728,3913,Bibbits Drive,,,,,94303,,88142e3a884f4615,America/Los_Angeles
+-122.1176964,37.4105564,357,Whitclem Place,,,,,94306,,a8859988786d24ff,America/Los_Angeles
+-122.1482105,37.4440281,1242,Byron Street,,,,,94301,,b65836951bcb27eb,America/Los_Angeles
+-122.1297312,37.4257374,3051,Bryant Street,,,,,94306,,7987fa578b8c64ed,America/Los_Angeles
+-122.1053913,37.4241557,3901,Bibbits Drive,,,,,94303,,c3c45cdcbb4dadae,America/Los_Angeles
+-122.1176348,37.4102988,361,Whitclem Place,,,,,94306,,5251c44e56d9794a,America/Los_Angeles
+-122.1298684,37.4258119,3041,Bryant Street,,,,,94306,,1be09decec43a91f,America/Los_Angeles
+-122.1486049,37.4443017,1212,Byron Street,,,,,94301,,3ae5e92671742b7a,America/Los_Angeles
+-122.1058867,37.423099,3936,Bibbits Drive,,,,,94303,,2090a944fda1d344,America/Los_Angeles
+-122.1208612,37.433393,3093,Stelling Court,,,,,94303,,52852ff782d60113,America/Los_Angeles
+-122.14872,37.4443712,1202,Byron Street,,,,,94301,,02be812d343cd99c,America/Los_Angeles
+-122.1059058,37.4232858,3930,Bibbits Drive,,,,,94303,,b35f0392450a539c,America/Los_Angeles
+-122.1203659,37.4332379,3103,Stelling Court,,,,,94303,,ea4cd7ef4353143d,America/Los_Angeles
+-122.149013,37.4450379,1147,Byron Street,,,,,94301,,6540266b400491da,America/Los_Angeles
+-122.1072886,37.4216944,3991,Bibbits Drive,,,,,94303,,1842f5c6620e6471,America/Los_Angeles
+-122.1206469,37.4335703,3097,Stelling Court,,,,,94303,,5fcd267e08543600,America/Los_Angeles
+-122.1491596,37.4451504,1139,Byron Street,,,,,94301,,7c820208b6e07b90,America/Los_Angeles
+-122.1075135,37.4220804,3992,Bibbits Drive,,,,,94303,,10fa4f6836a8b4ac,America/Los_Angeles
+-122.1482875,37.4445981,1211,Byron Street,,,,,94301,,9e652cca1a583efe,America/Los_Angeles
+-122.1075751,37.4216884,3997,Bibbits Drive,,,,,94303,,4a391b8809fa9fc8,America/Los_Angeles
+-122.1484856,37.4446511,1205,Byron Street,,,,,94301,,659290381bd28105,America/Los_Angeles
+-122.107618,37.4219096,3998,Bibbits Drive,,,,,94303,,41ad473b98e3f82c,America/Los_Angeles
+-122.1204061,37.4334552,3101,Stelling Court,,,,,94303,,54205a29e41ec818,America/Los_Angeles
+-122.148129,37.4445013,1221,Byron Street,,,,,94301,,614751edc9ec1143,America/Los_Angeles
+-122.1069448,37.4223111,3974,Bibbits Drive,,,,,94303,,83726f047c927b25,America/Los_Angeles
+-122.1658818,37.4247062,618,Escondido Road,,,,,94305,,19ec0f8733a6ca3e,America/Los_Angeles
+-122.1071452,37.4222324,3980,Bibbits Drive,,,,,94303,,5475e8739201b024,America/Los_Angeles
+-122.1493175,37.4447321,1150,Byron Street,,,,,94301,,1edee9e9150fb468,America/Los_Angeles
+-122.1634394,37.42409,658,Escondido Road,,,,,94305,,967d4436246ec594,America/Los_Angeles
+-122.1243676,37.4387115,912,Amarillo Avenue,,,,,94303,,38590d3f67b54274,America/Los_Angeles
+-122.1494696,37.4447999,1142,Byron Street,,,,,94301,,7c1fb9c49f4330c4,America/Los_Angeles
+-122.1628536,37.4255105,655,Escondido Road,,,,,94305,,fe74b227d060face,America/Los_Angeles
+-122.1238436,37.4387637,926,Amarillo Avenue,,,,,94303,,2724f0da5fc79bd5,America/Los_Angeles
+-122.1495691,37.444897,1124,Byron Street,,,,,94301,,6b36cab9da519066,America/Los_Angeles
+-122.1615069,37.4533269,136,Middlefield Road,,,,,94301,,0e0fac4662a58c20,America/Los_Angeles
+-122.1619602,37.4248742,673,Escondido Road,,,,,94305,,f50522187327f24b,America/Los_Angeles
+-122.1245118,37.4393299,925,Amarillo Avenue,,,,,94303,,720808193617c5f0,America/Los_Angeles
+-122.1497109,37.4449988,1120,Byron Street,,,,,94301,,e299e525b6d79302,America/Los_Angeles
+-122.1616285,37.4534035,128,Middlefield Road,,,,,94301,,e737ce008b5ac8af,America/Los_Angeles
+-122.1246419,37.439172,919,Amarillo Avenue,,,,,94303,,200fac91b6082740,America/Los_Angeles
+-122.1621025,37.4257071,661,Escondido Road,,,,,94305,,844609720c81c45b,America/Los_Angeles
+-122.1498636,37.4450857,1112,Byron Street,,,,,94301,,0e413d9a3da20632,America/Los_Angeles
+-122.1618064,37.4534456,122,Middlefield Road,,,,,94301,,93c95b8ef9deef71,America/Los_Angeles
+-122.1219124,37.4423958,1047,Amarillo Avenue,,,,,94303,,100f40e439a72978,America/Los_Angeles
+-122.1609615,37.424993,685,Escondido Road,,,,,94305,,f107ea802395da34,America/Los_Angeles
+-122.1284286,37.4241728,3174,Bryant Street,,,,,94306,,87e17eb28249e3d1,America/Los_Angeles
+-122.1494462,37.4452815,1119,Byron Street,,,,,94301,,d756130d8cebfa02,America/Los_Angeles
+-122.1619252,37.4535029,102,Middlefield Road,,,,,94301,,d627eeee3d1d4a93,America/Los_Angeles
+-122.121471,37.4424396,1063,Amarillo Avenue,,,,,94303,,6e41e7c27732e080,America/Los_Angeles
+-122.1580347,37.423588,785,Escondido Road,,,,,94305,,d01a52637008a618,America/Los_Angeles
+-122.1493251,37.4452458,1125,Byron Street,,,,,94301,,7b168de889984737,America/Los_Angeles
+-122.1217038,37.4421617,1045,Amarillo Avenue,,,,,94303,,b68a461107b06179,America/Los_Angeles
+-122.1620924,37.4535558,100,Middlefield Road,,,,,94301,,1d8713b050b9e639,America/Los_Angeles
+-122.1285574,37.4242809,3170,Bryant Street,,,,,94306,,43390abde2fd3182,America/Los_Angeles
+-122.1570049,37.423149,795,Escondido Road,,,,,94305,,5838b4d20a964ec4,America/Los_Angeles
+-122.1620808,37.4527258,138,Byron Street,,,,,94301,,cf175e67eba9757f,America/Los_Angeles
+-122.1605056,37.4527315,212,Middlefield Road,,,,,94301,,fa55bee7e2e9a328,America/Los_Angeles
+-122.1222942,37.4417579,1031,Amarillo Avenue,,,,,94303,,df9abaa0386fecd0,America/Los_Angeles
+-122.1286442,37.424411,3166,Bryant Street,,,,,94306,,efcd761b718ca639,America/Los_Angeles
+-122.1553529,37.4223897,865,Escondido Road,,,,,94305,,878022b66235695d,America/Los_Angeles
+-122.1605984,37.4528336,204,Middlefield Road,,,,,94301,,7e35f5056d7a2f32,America/Los_Angeles
+-122.1618105,37.4525555,144,Byron Street,,,,,94301,,c88bf199241ac384,America/Los_Angeles
+-122.1221565,37.4419151,1037,Amarillo Avenue,,,,,94303,,b8b6b8898c04e7d0,America/Los_Angeles
+-122.1283583,37.4240397,3182,Bryant Street,,,,,94306,,4865824ac94fe1fd,America/Los_Angeles
+-122.1563097,37.4222358,850,Escondido Road,,,,,94305,,ad396f6ae92c9f31,America/Los_Angeles
+-122.1601413,37.453058,211,Middlefield Road,,,,,94301,,d4c4d0ba90aa6f70,America/Los_Angeles
+-122.1362874,37.4443899,873,Embarcadero Road,,,,,94303,,837b9341654acc1c,America/Los_Angeles
+-122.1206267,37.4250611,3336,Saint Michael Drive,,,,,94306,,62fc88280094181f,America/Los_Angeles
+-122.1279309,37.4165053,3981,El Camino Real,,,,,94306,,91fda51c8740f6d3,America/Los_Angeles
+-122.1374689,37.4482091,976,Stanley Way,,,,,94303,,3a9fea55ea57836b,America/Los_Angeles
+-122.1360614,37.4444358,877,Embarcadero Road,,,,,94303,,32b76780a0f874a2,America/Los_Angeles
+-122.1202988,37.4252935,3344,Saint Michael Drive,,,,,94306,,189442ea9c6518f1,America/Los_Angeles
+-122.1298305,37.4163592,3924,El Camino Real,,,,,94306,,c45c56a4a40593d0,America/Los_Angeles
+-122.1374581,37.44856,930,Stanley Way,,,,,94303,,2005fb80020eaa30,America/Los_Angeles
+-122.1358261,37.4445032,881,Embarcadero Road,,,,,94303,,c953853de4c17930,America/Los_Angeles
+-122.1201597,37.4254255,3348,Saint Michael Drive,,,,,94306,,0ceb290dd948f09d,America/Los_Angeles
+-122.1292276,37.4160486,3972,El Camino Real,,,,,94306,,f263bc40dc2d1c17,America/Los_Angeles
+-122.1375818,37.4463466,1174,Stanley Way,,,,,94303,,495a1c4e3cb096bf,America/Los_Angeles
+-122.1356075,37.4445659,885,Embarcadero Road,,,,,94303,,9a21e59b19c154cc,America/Los_Angeles
+-122.1199849,37.4255329,3352,Saint Michael Drive,,,,,94306,,f9aed2fda0d1478e,America/Los_Angeles
+-122.1282764,37.4152258,4020,El Camino Real,,,,,94306,,001b4e5aeb561b7a,America/Los_Angeles
+-122.1374265,37.4464888,1160,Stanley Way,,,,,94303,,0ef1fd3083158365,America/Los_Angeles
+-122.1353867,37.4446443,889,Embarcadero Road,,,,,94303,,a39eeb26952a7b1a,America/Los_Angeles
+-122.1473405,37.4273209,438,College Avenue,,,,,94306,,8baea59b1f16962e,America/Los_Angeles
+-122.1207929,37.4249251,3330,Saint Michael Drive,,,,,94306,,9767d1e548c45f1f,America/Los_Angeles
+-122.1351171,37.4446988,893,Embarcadero Road,,,,,94303,,8e5bb0f610f9a766,America/Los_Angeles
+-122.1282689,37.4166658,3945,El Camino Real,,,,,94306,,76f67fb958b84605,America/Los_Angeles
+-122.1278265,37.4082232,4151,Amaranta Avenue,,,,,94306,,990ce78660b87b98,America/Los_Angeles
+-122.1350108,37.4413409,834,East Greenwich Place,,,,,94303,,34374651995f200f,America/Los_Angeles
+-122.1279837,37.4083183,4147,Amaranta Avenue,,,,,94306,,e7c121187b03ca2e,America/Los_Angeles
+-122.1281842,37.4083893,4143,Amaranta Avenue,,,,,94306,,f0b3f91a86393a4f,America/Los_Angeles
+-122.1283334,37.4084863,4139,Amaranta Avenue,,,,,94306,,7decf3a8e8416aea,America/Los_Angeles
+-122.1285566,37.4085832,4133,Amaranta Avenue,,,,,94306,,2900f9b4c71ef81f,America/Los_Angeles
+-122.1286991,37.4086505,4125,Amaranta Avenue,,,,,94306,,eb0d8ee984118542,America/Los_Angeles
+-122.1316626,37.4460941,140,Iris Way,,,,,94303,,023accd4d0eeceba,America/Los_Angeles
+-122.1288846,37.4087042,4115,Amaranta Avenue,,,,,94306,,2a554b85823d6423,America/Los_Angeles
+-122.1297587,37.4086531,4102,Amaranta Avenue,,,,,94306,,5f6d05b6ce3381f2,America/Los_Angeles
+-122.1312968,37.4462034,160,Iris Way,,,,,94303,,925fabf7170f08c1,America/Los_Angeles
+-122.1295966,37.4085536,4112,Amaranta Avenue,,,,,94306,,584f4711466cc484,America/Los_Angeles
+-122.1314514,37.4461447,150,Iris Way,,,,,94303,,55d7b53aef42c039,America/Los_Angeles
+-122.1289715,37.4082066,4122,Amaranta Avenue,,,,,94306,,1000b9beb41dca32,America/Los_Angeles
+-122.1307979,37.4463199,190,Iris Way,,,,,94303,,ae92e8eb0f7dd1b2,America/Los_Angeles
+-122.1279662,37.4078553,4158,Amaranta Avenue,,,,,94306,,12a53027505318fc,America/Los_Angeles
+-122.13094,37.4462696,180,Iris Way,,,,,94303,,e16fdb1d367b6dfd,America/Los_Angeles
+-122.1299981,37.4087672,4090,Amaranta Avenue,,,,,94306,,2a3369e9b69ea02d,America/Los_Angeles
+-122.1310955,37.4462625,170,Iris Way,,,,,94303,,bda4615f193d2512,America/Los_Angeles
+-122.1303183,37.4088891,4080,Amaranta Avenue,,,,,94306,,f2990f36f5afd4dd,America/Los_Angeles
+-122.1305588,37.4464732,200,Iris Way,,,,,94303,,1ec2bddba282390e,America/Los_Angeles
+-122.1305919,37.4090439,4060,Amaranta Avenue,,,,,94306,,11a4788a350d8600,America/Los_Angeles
+-122.1316895,37.4482026,330,Iris Way,,,,,94303,,e5a6ee884136d87c,America/Los_Angeles
+-122.1301818,37.4093791,4081,Amaranta Avenue,,,,,94306,,24607118667e1803,America/Los_Angeles
+-122.1315377,37.4481739,326,Iris Way,,,,,94303,,0218e9732bc599bb,America/Los_Angeles
+-122.1306321,37.4095929,4077,Amaranta Avenue,,,,,94306,,abafef83204c7735,America/Los_Angeles
+-122.1313277,37.4481761,320,Iris Way,,,,,94303,,70ef7500cb1211d2,America/Los_Angeles
+-122.1297594,37.4091361,4085,Amaranta Avenue,,,,,94306,,157dcc5bc7519df9,America/Los_Angeles
+-122.1311531,37.4481913,312,Iris Way,,,,,94303,,72533e4067f9db0b,America/Los_Angeles
+-122.1310466,37.409816,4073,Amaranta Avenue,,,,,94306,,9ee7e9b44a950b31,America/Los_Angeles
+-122.1309623,37.448245,306,Iris Way,,,,,94303,,eabb3cee5be1c990,America/Los_Angeles
+-122.1314529,37.4100235,4057,Amaranta Avenue,,,,,94306,,7d0763b62a6ff81b,America/Los_Angeles
+-122.1307399,37.4482182,300,Iris Way,,,,,94303,,642adb486793249c,America/Los_Angeles
+-122.1319428,37.4102917,4031,Amaranta Avenue,,,,,94306,,cd0020ba8ffb1e50,America/Los_Angeles
+-122.1305501,37.4480934,298,Iris Way,,,,,94303,,c3bf9bc7b2541f83,America/Los_Angeles
+-122.1314878,37.4094858,4040,Amaranta Avenue,,,,,94306,,0928c802ac59e461,America/Los_Angeles
+-122.1304772,37.4478695,290,Iris Way,,,,,94303,,74ae2c8e621c920d,America/Los_Angeles
+-122.1312127,37.4093584,4044,Amaranta Avenue,,,,,94306,,b4ac5657f0d89ef5,America/Los_Angeles
+-122.1305681,37.4477176,280,Iris Way,,,,,94303,,fbdf19568441819a,America/Los_Angeles
+-122.1309421,37.4091827,4050,Amaranta Avenue,,,,,94306,,f1af584ec4da5f65,America/Los_Angeles
+-122.1305395,37.4475578,270,Iris Way,,,,,94303,,d0056fa84b65c0c0,America/Los_Angeles
+-122.1322443,37.4104555,4013,Amaranta Avenue,,,,,94306,,a3fa011fe239834f,America/Los_Angeles
+-122.1305529,37.4474059,260,Iris Way,,,,,94303,,355b2729cd6e577f,America/Los_Angeles
+-122.1321301,37.409834,4020,Amaranta Avenue,,,,,94306,,d9761be8e9ea38fb,America/Los_Angeles
+-122.1305404,37.447241,250,Iris Way,,,,,94303,,3a013542d6f4ad5a,America/Los_Angeles
+-122.131755,37.4096485,4024,Amaranta Avenue,,,,,94306,,90a2835bbd27e969,America/Los_Angeles
+-122.1305311,37.4470941,240,Iris Way,,,,,94303,,c3b159f7c81fd6a4,America/Los_Angeles
+-122.1323996,37.4100877,4014,Amaranta Avenue,,,,,94306,,f66662c2525a1d6c,America/Los_Angeles
+-122.1305444,37.4469653,230,Iris Way,,,,,94303,,6fb2c0e370054701,America/Los_Angeles
+-122.1293442,37.4089895,4111,Amaranta Avenue,,,,,94306,,32ea863f7735a6e8,America/Los_Angeles
+-122.1305385,37.4467798,220,Iris Way,,,,,94303,,a628ef8c8e128bf6,America/Los_Angeles
+-122.1276666,37.4081913,4155,Amaranta Avenue,,,,,94306,,18876aab6d432d05,America/Los_Angeles
+-122.1305324,37.4466355,210,Iris Way,,,,,94303,,68a3c7b27cb54572,America/Los_Angeles
+-122.1108143,37.4268086,3663,Arbutus Avenue,,,,,94303,,0584686f34177b3b,America/Los_Angeles
+-122.1526355,37.4475718,671,Channing Avenue,,,,,94301,,9c6b9cd8c6f9d99f,America/Los_Angeles
+-122.1140185,37.4283455,3510,Arbutus Avenue,,,,,94303,,51fdd3e1825ad4aa,America/Los_Angeles
+-122.1530691,37.4473561,653,Channing Avenue,,,,,94301,,d1472986f2b9120a,America/Los_Angeles
+-122.1136501,37.4281091,3530,Arbutus Avenue,,,,,94303,,44b51802fcb86501,America/Los_Angeles
+-122.1551973,37.4445404,441,Channing Avenue,,,,,94301,,d68abe301cadcafd,America/Los_Angeles
+-122.1138601,37.4282513,3520,Arbutus Avenue,,,,,94303,,141f4d63889b3135,America/Los_Angeles
+-122.1565953,37.4433406,325,Channing Avenue,,,,,94301,,0677bb510e8b1366,America/Los_Angeles
+-122.1134477,37.4280053,3532,Arbutus Avenue,,,,,94303,,3151fd8acfd9af1f,America/Los_Angeles
+-122.1560383,37.4435862,351,Channing Avenue,,,,,94301,,fa64f1ab62f46a17,America/Los_Angeles
+-122.1134514,37.428535,3521,Arbutus Avenue,,,,,94303,,91ca9585c130f7cf,America/Los_Angeles
+-122.1411104,37.4485011,1350,Channing Avenue,,,,,94301,,b31c6e5d89db4dce,America/Los_Angeles
+-122.1381106,37.4225958,411,Acacia Avenue,,,,,94306,,6f4d1c3c2189f69d,America/Los_Angeles
+-122.1409321,37.4484935,1402,Channing Avenue,,,,,94301,,22c18edf521e84a6,America/Los_Angeles
+-122.1385054,37.4221563,435,Acacia Avenue,,,,,94306,,ad6e7e74ef5e47a5,America/Los_Angeles
+-122.1408378,37.4482194,1420,Channing Avenue,,,,,94301,,3de18381656a3094,America/Los_Angeles
+-122.1382253,37.4224931,429,Acacia Avenue,,,,,94306,,6bd290f8a585ec58,America/Los_Angeles
+-122.1406741,37.4484898,1430,Channing Avenue,,,,,94301,,159c513ff607f2f1,America/Los_Angeles
+-122.1181826,37.4418438,1098,Amarillo Avenue,,,,,94303,,2e18ca52aa952730,America/Los_Angeles
+-122.1404784,37.4484676,1450,Channing Avenue,,,,,94301,,3e7adb141b097c82,America/Los_Angeles
+-122.1209755,37.4421919,1062,Amarillo Avenue,,,,,94303,,1b5765a516d5ca68,America/Los_Angeles
+-122.1402852,37.4485117,1470,Channing Avenue,,,,,94301,,aa7a1631239f320d,America/Los_Angeles
+-122.1208585,37.4423265,1068,Amarillo Avenue,,,,,94303,,c0b2a3058c568038,America/Los_Angeles
+-122.1402542,37.4489852,1475,Channing Avenue,,,,,94301,,2978fcf0806ff9d0,America/Los_Angeles
+-122.1207586,37.4424138,1074,Amarillo Avenue,,,,,94303,,82104ac8e7a9317d,America/Los_Angeles
+-122.1404312,37.4489794,1465,Channing Avenue,,,,,94301,,3bb87380c6d5097f,America/Los_Angeles
+-122.1211689,37.4427812,1069,Amarillo Avenue,,,,,94303,,0dc6a316182d5f1d,America/Los_Angeles
+-122.1406316,37.4489842,1435,Channing Avenue,,,,,94301,,3aa53a76b3d21e20,America/Los_Angeles
+-122.1212649,37.442666,1067,Amarillo Avenue,,,,,94303,,ac9765c669b611c9,America/Los_Angeles
+-122.1386922,37.4485284,1542,Channing Avenue,,,,,94303,,a3240b647ae67957,America/Los_Angeles
+-122.1213457,37.4425412,1065,Amarillo Avenue,,,,,94303,,73b86a8b5efb27ac,America/Los_Angeles
+-122.1385301,37.4485375,1550,Channing Avenue,,,,,94303,,b081879d6a0e8c29,America/Los_Angeles
+-122.1215997,37.4422913,1049,Amarillo Avenue,,,,,94303,,cc99ffde3d3a10ce,America/Los_Angeles
+-122.1383023,37.4485496,1560,Channing Avenue,,,,,94303,,c1a9b7e47af19623,America/Los_Angeles
+-122.1203958,37.4450187,1171,Amarillo Avenue,,,,,94303,,13b64c5dbc1f16bc,America/Los_Angeles
+-122.1381131,37.4485401,1568,Channing Avenue,,,,,94303,,f94c5991689f19ad,America/Los_Angeles
+-122.1208843,37.4450036,1177,Amarillo Avenue,,,,,94303,,e8c233c973021df4,America/Los_Angeles
+-122.1393447,37.4485384,1514,Channing Avenue,,,,,94303,,4d7559138d87167f,America/Los_Angeles
+-122.120635,37.4452771,1183,Amarillo Avenue,,,,,94303,,bcc60f941df608a7,America/Los_Angeles
+-122.1391054,37.4485258,1524,Channing Avenue,,,,,94303,,5f14e2801f809854,America/Los_Angeles
+-122.121194,37.4419683,1050,Amarillo Avenue,,,,,94303,,f773316e0195d9a9,America/Los_Angeles
+-122.1389123,37.4485102,1532,Channing Avenue,,,,,94303,,4937e63686e3457f,America/Los_Angeles
+-122.1211047,37.442065,1056,Amarillo Avenue,,,,,94303,,dcef298de0b52459,America/Los_Angeles
+-122.1376884,37.4485458,1586,Channing Avenue,,,,,94303,,ae870a263f615e30,America/Los_Angeles
+-122.1194647,37.4445709,1139,Amarillo Avenue,,,,,94303,,6ad522b6b8459e15,America/Los_Angeles
+-122.1379085,37.4485461,1578,Channing Avenue,,,,,94303,,99494a5dd4bc89a7,America/Los_Angeles
+-122.1198796,37.4443738,1145,Amarillo Avenue,,,,,94303,,5bedef6c7e2252a4,America/Los_Angeles
+-122.1388587,37.4490188,1535,Channing Avenue,,,,,94303,,b45391aaef216e0e,America/Los_Angeles
+-122.11986,37.4446416,1151,Amarillo Avenue,,,,,94303,,0995d45912033bc7,America/Los_Angeles
+-122.1390898,37.4490177,1525,Channing Avenue,,,,,94303,,b48f790486b2e677,America/Los_Angeles
+-122.1205028,37.4447772,1163,Amarillo Avenue,,,,,94303,,1474e69945fe6ca8,America/Los_Angeles
+-122.139317,37.4490089,1515,Channing Avenue,,,,,94303,,d0172ac13052d0fa,America/Los_Angeles
+-122.120291,37.4446542,1157,Amarillo Avenue,,,,,94303,,8a6d524646eac63e,America/Los_Angeles
+-122.1372269,37.4490074,1601,Channing Avenue,,,,,94303,,c8e1b36d2bca015e,America/Los_Angeles
+-122.1227004,37.4404671,984,Amarillo Avenue,,,,,94303,,b97325492d33a904,America/Los_Angeles
+-122.1374561,37.448991,1595,Channing Avenue,,,,,94303,,b049f5dabdee65b8,America/Los_Angeles
+-122.1225582,37.4405436,990,Amarillo Avenue,,,,,94303,,a13c3808c1febb16,America/Los_Angeles
+-122.1376566,37.4490004,1585,Channing Avenue,,,,,94303,,dba15617ccbf90ef,America/Los_Angeles
+-122.1233816,37.4404294,971,Amarillo Avenue,,,,,94303,,b4ac0e82709cd42a,America/Los_Angeles
+-122.1516843,37.4459895,608,Channing Avenue,,,,,94301,,be08164e133d2119,America/Los_Angeles
+-122.1235324,37.4403108,967,Amarillo Avenue,,,,,94303,,ad8f2e97586c14ec,America/Los_Angeles
+-122.1516645,37.4460117,612,Channing Avenue,,,,,94301,,36aaa1238f776565,America/Los_Angeles
+-122.1236531,37.4401891,963,Amarillo Avenue,,,,,94303,,37e882d57c02060d,America/Los_Angeles
+-122.1517248,37.4458676,616,Channing Avenue,,,,,94301,,f2eb000b1ea1f3ef,America/Los_Angeles
+-122.1237777,37.4400434,957,Amarillo Avenue,,,,,94303,,2fd89d5b9f9fc5e2,America/Los_Angeles
+-122.1517065,37.4458839,618,Channing Avenue,,,,,94301,,4fb449ea676ca28e,America/Los_Angeles
+-122.123908,37.439912,951,Amarillo Avenue,,,,,94303,,5b21ac2f842b2a45,America/Los_Angeles
+-122.1516164,37.4459752,636,Channing Avenue,,,,,94301,,1edefcfe5ed23e88,America/Los_Angeles
+-122.1240478,37.4397944,945,Amarillo Avenue,,,,,94303,,fcd18f18555946ad,America/Los_Angeles
+-122.151639,37.4459546,632,Channing Avenue,,,,,94301,,7030fce856b9ea03,America/Los_Angeles
+-122.1241692,37.439652,939,Amarillo Avenue,,,,,94303,,b82eb04cec6c0685,America/Los_Angeles
+-122.12421,37.4245318,419,El Verano Avenue,,,,,94306,,2efae957810bcdc5,America/Los_Angeles
+-122.1250046,37.438773,905,Amarillo Avenue,,,,,94303,,bc7aaf8063b25b9c,America/Los_Angeles
+-122.1237363,37.424249,416,El Verano Avenue,,,,,94306,,44a7be62bb63441a,America/Los_Angeles
+-122.1246177,37.4385527,906,Amarillo Avenue,,,,,94303,,8747401c37f542c3,America/Los_Angeles
+-122.1236539,37.4243922,428,El Verano Avenue,,,,,94306,,e93f99af15d79a8a,America/Los_Angeles
+-122.123384,37.4392072,950,Amarillo Avenue,,,,,94303,,c68471c2bc02a076,America/Los_Angeles
+-122.1240381,37.4240647,402,El Verano Avenue,,,,,94306,,b001f369fd093779,America/Los_Angeles
+-122.1241391,37.4390053,928,Amarillo Avenue,,,,,94303,,c16d91a5ed1f6b24,America/Los_Angeles
+-122.1091538,37.4130792,323,Ferne Avenue,,,,,94306,,cb744d5e21e59bd2,America/Los_Angeles
+-122.1242945,37.4388553,920,Amarillo Avenue,,,,,94303,,bc4da811b6c410e1,America/Los_Angeles
+-122.1093462,37.4129403,313,Ferne Avenue,,,,,94306,,f235565cd50cfaea,America/Los_Angeles
+-122.1314795,37.4114049,4015,Arbol Drive,,,,,94306,,4c7120a29e06ee18,America/Los_Angeles
+-122.109419,37.412769,303,Ferne Avenue,,,,,94306,,8186a63b4e783c73,America/Los_Angeles
+-122.1311594,37.4112513,4029,Arbol Drive,,,,,94306,,1c2b67df9dab55ba,America/Los_Angeles
+-122.1087226,37.4135496,347,Ferne Avenue,,,,,94306,,72738b5f6de13df5,America/Los_Angeles
+-122.1313834,37.4109361,4028,Arbol Drive,,,,,94306,,8cc5471c800677bd,America/Los_Angeles
+-122.1085309,37.4136938,359,Ferne Avenue,,,,,94306,,10122f89009a97ff,America/Los_Angeles
+-122.1317126,37.4110919,4018,Arbol Drive,,,,,94306,,b28e0fc9efb82da4,America/Los_Angeles
+-122.1088445,37.4133661,335,Ferne Avenue,,,,,94306,,cf114c485a6607f8,America/Los_Angeles
+-122.1124472,37.4131493,4018,Ben Lomond Drive,,,,,94306,,3a0af09290bfdc7f,America/Los_Angeles
+-122.1082345,37.4132555,348,Ferne Avenue,,,,,94306,,eb1b51dc287bb80d,America/Los_Angeles
+-122.1126003,37.4129952,4022,Ben Lomond Drive,,,,,94306,,ff00e746fb192deb,America/Los_Angeles
+-122.108115,37.4134549,360,Ferne Avenue,,,,,94306,,f1822588f4adc059,America/Los_Angeles
+-122.1127689,37.4128316,4026,Ben Lomond Drive,,,,,94306,,89a7c25beb963f17,America/Los_Angeles
+-122.1080001,37.4135705,372,Ferne Avenue,,,,,94306,,4988563af85396a2,America/Los_Angeles
+-122.1129443,37.412675,4030,Ben Lomond Drive,,,,,94306,,4d6662fef4689762,America/Los_Angeles
+-122.1077639,37.4138265,384,Ferne Avenue,,,,,94306,,c597120fcf257622,America/Los_Angeles
+-122.1129983,37.4125023,4034,Ben Lomond Drive,,,,,94306,,a08958ead6952b02,America/Los_Angeles
+-122.1057604,37.4135125,486,Ferne Avenue,,,,,94306,,3b3f6dc37a86f313,America/Los_Angeles
+-122.112789,37.4123325,4038,Ben Lomond Drive,,,,,94306,,c579190467ca674c,America/Los_Angeles
+-122.1349309,37.4181661,527,Matadero Avenue,,,,,94306,,9178e7382e98cda8,America/Los_Angeles
+-122.105602,37.4137216,488,Ferne Avenue,,,,,94306,,7d838c5edabb5f18,America/Los_Angeles
+-122.1126146,37.412196,4042,Ben Lomond Drive,,,,,94306,,5002fbbd143491cf,America/Los_Angeles
+-122.1060734,37.4136145,482,Ferne Avenue,,,,,94306,,33ebc8336166dec8,America/Los_Angeles
+-122.1124176,37.4120822,4046,Ben Lomond Drive,,,,,94306,,dd1034a908978567,America/Los_Angeles
+-122.1054635,37.4139045,490,Ferne Avenue,,,,,94306,,e17619147daa2ff6,America/Los_Angeles
+-122.1321,37.442637,2174,Louis Road,,,,,94303,,ff0c33774c21ad9b,America/Los_Angeles
+-122.1122303,37.4119587,4050,Ben Lomond Drive,,,,,94306,,5c5064fe6e46baae,America/Los_Angeles
+-122.1081428,37.4141818,395,Ferne Avenue,,,,,94306,,36c382379ddbc359,America/Los_Angeles
+-122.1123929,37.4125891,4025,Ben Lomond Drive,,,,,94306,,d1582650fc64d8e3,America/Los_Angeles
+-122.1082529,37.4140101,383,Ferne Avenue,,,,,94306,,c26ad4e6b6e23bdc,America/Los_Angeles
+-122.1121889,37.412764,4021,Ben Lomond Drive,,,,,94306,,2054e0e90c30676e,America/Los_Angeles
+-122.1083924,37.4138089,371,Ferne Avenue,,,,,94306,,937fd95291789564,America/Los_Angeles
+-122.1122882,37.4133093,4014,Ben Lomond Drive,,,,,94306,,4bfb847b1ea170fb,America/Los_Angeles
+-122.1052953,37.4143019,485,Ferne Avenue,,,,,94306,,0227bb984f9f1f0a,America/Los_Angeles
+-122.1121964,37.4124579,4043,Ben Lomond Drive,,,,,94306,,56553a9e36125897,America/Los_Angeles
+-122.1054996,37.4144311,479,Ferne Avenue,,,,,94306,,8bbb81ad3aacad5c,America/Los_Angeles
+-122.1120027,37.4123409,4045,Ben Lomond Drive,,,,,94306,,1402129fe02aafe5,America/Los_Angeles
+-122.1056913,37.4145426,473,Ferne Avenue,,,,,94306,,47a01d234a340d9c,America/Los_Angeles
+-122.1854705,37.4328996,1470,Sand Hill Road,,,,,94304,,658997f588b9768f,America/Los_Angeles
+-122.135051,37.4180382,529,Matadero Avenue,,,,,94306,,70f65994bbc34cb8,America/Los_Angeles
+-122.1118139,37.4122322,4051,Ben Lomond Drive,,,,,94306,,0466db78c5e1870e,America/Los_Angeles
+-122.1058993,37.4146741,467,Ferne Avenue,,,,,94306,,c1f39aa9f57e410e,America/Los_Angeles
+-122.1116176,37.4120977,4055,Ben Lomond Drive,,,,,94306,,2281de2d3acb289e,America/Los_Angeles
+-122.1357942,37.416664,635,Matadero Avenue,,,,,94306,,065b66c887e537dc,America/Los_Angeles
+-122.1116184,37.4164239,440,Adobe Place,,,,,94306,,d0c4c294cdd40c22,America/Los_Angeles
+-122.1312162,37.4337237,2569,Webster Street,,,,,94301,,3b255d19734f4154,America/Los_Angeles
+-122.1298599,37.4222541,3157,Alma Street,,,,,94306,,1f8850643908fe0c,America/Los_Angeles
+-122.1477653,37.4363419,271,Lowell Avenue,,,,,94301,,f97730ea3d7dfeeb,America/Los_Angeles
+-122.1113477,37.4164628,450,Adobe Place,,,,,94306,,be532829c2082fc7,America/Los_Angeles
+-122.1309028,37.434071,2599,Webster Street,,,,,94301,,18c8898c4ebd2ec0,America/Los_Angeles
+-122.1297226,37.4223742,3159,Alma Street,,,,,94306,,1caeb6c0d3e834ed,America/Los_Angeles
+-122.1118225,37.4163827,430,Adobe Place,,,,,94306,,0e8691cd08d41744,America/Los_Angeles
+-122.1472778,37.4363611,275,Lowell Avenue,,,,,94301,,b9f71d250142bcf5,America/Los_Angeles
+-122.1317492,37.4334262,2527,Webster Street,,,,,94301,,d8c9d48d2fef9b06,America/Los_Angeles
+-122.1297444,37.4221755,3161,Alma Street,,,,,94306,,557ecc3dd2d78152,America/Los_Angeles
+-122.1120597,37.4163055,420,Adobe Place,,,,,94306,,bcd356e7bffdf8b1,America/Los_Angeles
+-122.1474116,37.4361397,273,Lowell Avenue,,,,,94301,,d9dc74164faa9ae5,America/Los_Angeles
+-122.1261668,37.4491711,2073,Sandalwood Court,,,,,94303,,cc7b185fb3496040,America/Los_Angeles
+-122.1315683,37.4335394,2533,Webster Street,,,,,94301,,eba5492118ec2ff4,America/Los_Angeles
+-122.1296094,37.4223116,3163,Alma Street,,,,,94306,,63aa2a135dc6b45b,America/Los_Angeles
+-122.1475681,37.4360337,249,Lowell Avenue,,,,,94301,,ec1505b94860ba79,America/Los_Angeles
+-122.1117451,37.4168236,441,Adobe Place,,,,,94306,,b9006e5b5cd1a5b6,America/Los_Angeles
+-122.126094,37.4493785,2061,Sandalwood Court,,,,,94303,,1a8f315dc3227b6d,America/Los_Angeles
+-122.1329083,37.4328814,2514,Webster Street,,,,,94301,,9b0d05857f66532a,America/Los_Angeles
+-122.1547599,37.4379101,1215,Alma Street,,,,,94301,,cf525205eebcbae5,America/Los_Angeles
+-122.1479097,37.4357823,215,Lowell Avenue,,,,,94301,,b08e47dfa31d1717,America/Los_Angeles
+-122.1115038,37.4168723,451,Adobe Place,,,,,94306,,21b921a142d4dd9c,America/Los_Angeles
+-122.126619,37.4487455,2090,Sandalwood Court,,,,,94303,,ae821c2ed2bf59d2,America/Los_Angeles
+-122.1315148,37.4330642,2554,Webster Street,,,,,94301,,5c60d562895e787c,America/Los_Angeles
+-122.1485002,37.4351036,161,Lowell Avenue,,,,,94301,,b7d9374fbd5af0b9,America/Los_Angeles
+-122.1119616,37.4167799,431,Adobe Place,,,,,94306,,9ead93bde3d471fb,America/Los_Angeles
+-122.1562629,37.4388503,1101,Alma Street,,,,,94301,,312890538824eb3c,America/Los_Angeles
+-122.1266689,37.4489068,2082,Sandalwood Court,,,,,94303,,2e795b39a20ba184,America/Los_Angeles
+-122.13168,37.432969,2550,Webster Street,,,,,94301,,fe29f9b05299875d,America/Los_Angeles
+-122.1478015,37.434928,170,Lowell Avenue,,,,,94301,,188293385de50eda,America/Los_Angeles
+-122.1561129,37.4387722,1111,Alma Street,,,,,94301,,959d20ca53b59748,America/Los_Angeles
+-122.1122191,37.4167357,421,Adobe Place,,,,,94306,,b3c8a4693a249527,America/Los_Angeles
+-122.1266987,37.4491027,2074,Sandalwood Court,,,,,94303,,10e813a729607271,America/Los_Angeles
+-122.1558776,37.448497,635,Webster Street,,,,,94301,,7cd0229736404450,America/Los_Angeles
+-122.1481072,37.4346921,156,Lowell Avenue,,,,,94301,,27586b6adff19248,America/Los_Angeles
+-122.1272294,37.4102616,4165,Baker Avenue,,,,,94306,,19a59ec882105e7e,America/Los_Angeles
+-122.154581,37.4377559,1235,Alma Street,,,,,94301,,5849ae52f1f1f7b4,America/Los_Angeles
+-122.1267168,37.4492756,2066,Sandalwood Court,,,,,94303,,3e27bccabb2955bc,America/Los_Angeles
+-122.1556956,37.4486511,637,Webster Street,,,,,94301,,66a7e58ed1ad09f2,America/Los_Angeles
+-122.1480061,37.4347976,160,Lowell Avenue,,,,,94301,,382e9c995379b0de,America/Los_Angeles
+-122.1266664,37.4494773,2058,Sandalwood Court,,,,,94303,,1f5d449c3d3bc1ef,America/Los_Angeles
+-122.1270681,37.4102022,4177,Baker Avenue,,,,,94306,,b17a722f90bb03fe,America/Los_Angeles
+-122.1542046,37.4379657,1245,Alma Street,,,,,94301,,95e767fc32353c04,America/Los_Angeles
+-122.155756,37.4484203,643,Webster Street,,,,,94301,,d2e419b56f16c7c0,America/Los_Angeles
+-122.1264826,37.449533,2050,Sandalwood Court,,,,,94303,,f9a11add5c94bd17,America/Los_Angeles
+-122.1268944,37.4101214,4189,Baker Avenue,,,,,94306,,b2db379639414c4e,America/Los_Angeles
+-122.147893,37.4343675,144,Lowell Avenue,,,,,94301,,eceac828823beb13,America/Los_Angeles
+-122.1543138,37.4378597,1247,Alma Street,,,,,94301,,9073e655a75701ae,America/Los_Angeles
+-122.1555639,37.4485681,645,Webster Street,,,,,94301,,b4e3020c7a2f0a7b,America/Los_Angeles
+-122.1262373,37.4495432,2053,Sandalwood Court,,,,,94303,,a5794e2878920ec4,America/Los_Angeles
+-122.1266976,37.4100252,4193,Baker Avenue,,,,,94306,,eefc412b2ae1a331,America/Los_Angeles
+-122.1484287,37.4343816,126,Lowell Avenue,,,,,94301,,ebfaf3b513040e84,America/Los_Angeles
+-122.1531276,37.436815,1347,Alma Street,,,,,94301,,17941116218ef823,America/Los_Angeles
+-122.1633063,37.4525284,100,Webster Street,,,,,94301,,39dec58fc2e657e5,America/Los_Angeles
+-122.1348986,37.4081623,951,Shauna Lane,,,,,94306,,7a20a98124f10a67,America/Los_Angeles
+-122.1482507,37.4345888,140,Lowell Avenue,,,,,94301,,b3773d1652a10975,America/Los_Angeles
+-122.1264767,37.4099347,4197,Baker Avenue,,,,,94306,,c5b6f467a2ab3339,America/Los_Angeles
+-122.1531851,37.4370764,1327,Alma Street,,,,,94301,,b5ccc6b549b11e95,America/Los_Angeles
+-122.1617125,37.451514,212,Webster Street,,,,,94301,,c2ee17c4aa559929,America/Los_Angeles
+-122.1532208,37.4369826,1345,Alma Street,,,,,94301,,2e4f561444e403dc,America/Los_Angeles
+-122.1596665,37.4409493,827,Alma Street,,,,,94301,,93ab89b62de18231,America/Los_Angeles
+-122.1466552,37.4361707,290,Lowell Avenue,,,,,94301,,7f7fc1e9442d459f,America/Los_Angeles
+-122.1276834,37.4099219,4134,Baker Avenue,,,,,94306,,afc6497ad8340f2b,America/Los_Angeles
+-122.1617666,37.4513913,216,Webster Street,,,,,94301,,091edbec199e381c,America/Los_Angeles
+-122.1519626,37.4361722,1433,Alma Street,,,,,94301,,8992aa59713d0fb2,America/Los_Angeles
+-122.1467777,37.4359367,280,Lowell Avenue,,,,,94301,,9786476acae4a157,America/Los_Angeles
+-122.12753,37.4098606,4138,Baker Avenue,,,,,94306,,e9b42a269635a612,America/Los_Angeles
+-122.1494033,37.434911,1647,Alma Street,,,,,94301,,7c673daacd6b5833,America/Los_Angeles
+-122.1618023,37.4514138,214,Webster Street,,,,,94301,,21a65fe17313ce80,America/Los_Angeles
+-122.1273507,37.4097881,4142,Baker Avenue,,,,,94306,,ac0c3756961ee94d,America/Los_Angeles
+-122.1493289,37.434983,1649,Alma Street,,,,,94301,,92439392beebe229,America/Los_Angeles
+-122.1469649,37.4357272,250,Lowell Avenue,,,,,94301,,d3bf14bb8bc1af06,America/Los_Angeles
+-122.1361824,37.4266021,2677,Alma Street,,,,,94306,,d318043290b1214c,America/Los_Angeles
+-122.1616508,37.4512746,222,Webster Street,,,,,94301,,62da7ce72029a249,America/Los_Angeles
+-122.1492825,37.4347814,1657,Alma Street,,,,,94301,,159b8a2628eac884,America/Los_Angeles
+-122.1361555,37.4265852,2679,Alma Street,,,,,94306,,655f9216e6788f91,America/Los_Angeles
+-122.1473154,37.4354322,218,Lowell Avenue,,,,,94301,,7d8ea3f067b28ab5,America/Los_Angeles
+-122.1272162,37.409719,4148,Baker Avenue,,,,,94306,,9fe3182da3080de8,America/Los_Angeles
+-122.1615773,37.4514289,218,Webster Street,,,,,94301,,5dfb9170d3848534,America/Los_Angeles
+-122.1491902,37.4348973,1659,Alma Street,,,,,94301,,7e00231f34224255,America/Los_Angeles
+-122.14719,37.4355415,226,Lowell Avenue,,,,,94301,,13a09f219ba6a115,America/Los_Angeles
+-122.1361235,37.4265651,2681,Alma Street,,,,,94306,,380d908708a3ee94,America/Los_Angeles
+-122.1270628,37.4096577,4152,Baker Avenue,,,,,94306,,e49b87338f39a0d2,America/Los_Angeles
+-122.161689,37.4512986,220,Webster Street,,,,,94301,,743a81ed0e1b4703,America/Los_Angeles
+-122.1491717,37.4348856,1661,Alma Street,,,,,94301,,baabaaa2b5253952,America/Los_Angeles
+-122.1357805,37.426349,2721,Alma Street,,,,,94306,,1b72d26b870101f4,America/Los_Angeles
+-122.1474562,37.4353108,200,Lowell Avenue,,,,,94301,,c526fa2a86c5e029,America/Los_Angeles
+-122.1268939,37.4095897,4158,Baker Avenue,,,,,94306,,4e6c9e9c6a8e9669,America/Los_Angeles
+-122.1618535,37.4520885,175,Webster Street,,,,,94301,,82779a302022c627,America/Los_Angeles
+-122.1519183,37.4364279,1427,Alma Street,,,,,94301,,97d41417ea8daee8,America/Los_Angeles
+-122.1483572,37.4344676,130,Lowell Avenue,,,,,94301,,f2acaa22ea252a9d,America/Los_Angeles
+-122.135799,37.4263607,2719,Alma Street,,,,,94306,,2e2ad53c3c2eb8c5,America/Los_Angeles
+-122.1273691,37.410333,4151,Baker Avenue,,,,,94306,,cde5011c1f645d9e,America/Los_Angeles
+-122.1618997,37.4522441,167,Webster Street,,,,,94301,,48cdee77d0c96f70,America/Los_Angeles
+-122.1517909,37.4365367,1429,Alma Street,,,,,94301,,e7722b09e117afa1,America/Los_Angeles
+-122.148152,37.4343465,132,Lowell Avenue,,,,,94301,,27157504ecda647d,America/Los_Angeles
+-122.1539974,37.444278,465,Addison Avenue,,,,,94301,,de026a172de2d1b2,America/Los_Angeles
+-122.1273794,37.4427797,970,Blair Court,,,,,94303,,47fb9c856d7a7d59,America/Los_Angeles
+-122.1620348,37.4523293,149,Webster Street,,,,,94301,,00708b82e520fcdb,America/Los_Angeles
+-122.1517694,37.436522,1431,Alma Street,,,,,94301,,8c1d96a4c9c500fc,America/Los_Angeles
+-122.148839,37.4340643,104,Lowell Avenue,,,,,94301,,e3eb6c126604bafd,America/Los_Angeles
+-122.1537526,37.4441043,463,Addison Avenue,,,,,94301,,0c6fc8f84e6422a7,America/Los_Angeles
+-122.1267161,37.4433115,990,Blair Court,,,,,94303,,ab037eb55103e5cf,America/Los_Angeles
+-122.1437714,37.4272866,2425,Birch Street,,,,,94306,,c52f01149c7751cb,America/Los_Angeles
+-122.151787,37.4363727,1435,Alma Street,,,,,94301,,949784443743b085,America/Los_Angeles
+-122.1486459,37.4341555,114,Lowell Avenue,,,,,94301,,beea478ad4cfceac,America/Los_Angeles
+-122.1530841,37.4434039,438,Addison Avenue,,,,,94301,,10649b20f4d66a07,America/Los_Angeles
+-122.1268747,37.4432034,984,Blair Court,,,,,94303,,722de1bfbe32fd43,America/Los_Angeles
+-122.14542,37.4289942,2160,Birch Street,,,,,94306,,18676f11d5921e93,America/Los_Angeles
+-122.1517509,37.4363571,1437,Alma Street,,,,,94301,,a40b649f0c6b5079,America/Los_Angeles
+-122.1485341,37.4342407,120,Lowell Avenue,,,,,94301,,2d2cc1e4829ddb7b,America/Los_Angeles
+-122.1523065,37.4448112,536,Addison Avenue,,,,,94301,,192b4ae72a9313b9,America/Los_Angeles
+-122.1270192,37.4430738,978,Blair Court,,,,,94303,,6b3f0055ce630b73,America/Los_Angeles
+-122.1422263,37.4265099,2575,Birch Street,,,,,94306,,5dd62671a3ecf0cb,America/Los_Angeles
+-122.1543673,37.4378049,1249,Alma Street,,,,,94301,,1afeb0a31892e3bc,America/Los_Angeles
+-122.1524011,37.44472,526,Addison Avenue,,,,,94301,,6a602716a3a426dd,America/Los_Angeles
+-122.1492037,37.4343352,105,Lowell Avenue,,,,,94301,,8a1177780ba3aa15,America/Los_Angeles
+-122.1280531,37.4432117,954,Blair Court,,,,,94303,,bf959e4f254a305d,America/Los_Angeles
+-122.1413646,37.4260187,2670,Birch Street,,,,,94306,,515a6f62c81e3d8d,America/Los_Angeles
+-122.1544897,37.4376957,1251,Alma Street,,,,,94301,,58190042f76d9e25,America/Los_Angeles
+-122.1485763,37.4349578,151,Lowell Avenue,,,,,94301,,a6cf5367bab26a4e,America/Los_Angeles
+-122.1521348,37.4448712,540,Addison Avenue,,,,,94301,,919878b72b0327e7,America/Los_Angeles
+-122.1416322,37.4259369,2650,Birch Street,,,,,94306,,499dab86e608a000,America/Los_Angeles
+-122.1278618,37.4431574,958,Blair Court,,,,,94303,,f6b80b147694dfea,America/Los_Angeles
+-122.1545256,37.4378126,1237,Alma Street,,,,,94301,,748cdbbfef4b7c1b,America/Los_Angeles
+-122.1491333,37.4344546,111,Lowell Avenue,,,,,94301,,ed73dabd24ba12de,America/Los_Angeles
+-122.1417488,37.426009,2640,Birch Street,,,,,94306,,16ebcc009556a7ea,America/Los_Angeles
+-122.1277114,37.4430499,962,Blair Court,,,,,94303,,529957147b8a3ecb,America/Los_Angeles
+-122.1519579,37.4446289,542,Addison Avenue,,,,,94301,,132e679a4541100e,America/Los_Angeles
+-122.1544144,37.4379141,1239,Alma Street,,,,,94301,,ad44fc3a91c0abb3,America/Los_Angeles
+-122.1490248,37.4306517,1830,Birch Street,,,,,94306,,7288399be599f122,America/Los_Angeles
+-122.1275785,37.4428967,966,Blair Court,,,,,94303,,137616464ab198d8,America/Los_Angeles
+-122.152758,37.4450824,537,Addison Avenue,,,,,94301,,83c2818de475263c,America/Los_Angeles
+-122.154367,37.4379727,1241,Alma Street,,,,,94301,,5a2bfdaa08c0be01,America/Los_Angeles
+-122.1492558,37.430858,1810,Birch Street,,,,,94306,,108a69a2eb6d94dd,America/Los_Angeles
+-122.1271223,37.4428605,974,Blair Court,,,,,94303,,13927e634128e145,America/Los_Angeles
+-122.1531215,37.4446571,505,Addison Avenue,,,,,94301,,7d0b71ef39f8d3ac,America/Los_Angeles
+-122.1543088,37.4380292,1243,Alma Street,,,,,94301,,2ca78b3d863ef342,America/Los_Angeles
+-122.134768,37.4227048,3335,Birch Street,,,,,94306,,7211160277d3b977,America/Los_Angeles
+-122.1530214,37.4447182,507,Addison Avenue,,,,,94301,,d8a8cf589b196491,America/Los_Angeles
+-122.1281241,37.4214176,3265,Alma Street,,,,,94301,,67c99700a94f3fcd,America/Los_Angeles
+-122.1273582,37.443338,981,Blair Court,,,,,94303,,3415253414c8aaf4,America/Los_Angeles
+-122.1455885,37.4292986,2155,Birch Street,,,,,94306,,9ae2c5787d79691c,America/Los_Angeles
+-122.152895,37.4447988,519,Addison Avenue,,,,,94301,,cfbf0d46833c4c4f,America/Los_Angeles
+-122.149022,37.4349323,131,Lowell Avenue,,,,,94301,,29a4bf78a66042a1,America/Los_Angeles
+-122.1282123,37.4433184,950,Blair Court,,,,,94303,,064c664acdadf361,America/Los_Angeles
+-122.1531488,37.4370326,1343,Alma Street,,,,,94301,,feff60887f28072f,America/Los_Angeles
+-122.1457493,37.429411,2145,Birch Street,,,,,94306,,3fe23a232a228bb3,America/Los_Angeles
+-122.1529875,37.4449025,521,Addison Avenue,,,,,94301,,9fee60f9e063d031,America/Los_Angeles
+-122.1480437,37.4342024,1747,Alma Street,,,,,94301,,83f4e95115219168,America/Los_Angeles
+-122.1275414,37.4434725,959,Blair Court,,,,,94303,,5173538ab6f7b924,America/Los_Angeles
+-122.1486389,37.4348498,143,Lowell Avenue,,,,,94301,,358307e63d2a0f01,America/Los_Angeles
+-122.1434554,37.4273024,2437,Birch Street,,,,,94306,,e9f597f4e0d5d49a,America/Los_Angeles
+-122.1528971,37.4450204,527,Addison Avenue,,,,,94301,,b85820c9bd8e01e4,America/Los_Angeles
+-122.1276635,37.4436125,955,Blair Court,,,,,94303,,aae1a5b55bcf9dad,America/Los_Angeles
+-122.149073,37.4345776,119,Lowell Avenue,,,,,94301,,07875ae01c70ff39,America/Los_Angeles
+-122.1433971,37.4272741,2441,Birch Street,,,,,94306,,dd04dd5f3df9be19,America/Los_Angeles
+-122.1531863,37.4451631,529,Addison Avenue,,,,,94301,,44eb56f39dd4256a,America/Los_Angeles
+-122.1278063,37.4437278,951,Blair Court,,,,,94303,,520be0a2ecec44ff,America/Los_Angeles
+-122.1492602,37.4347016,121,Lowell Avenue,,,,,94301,,77f382fe5231fa37,America/Los_Angeles
+-122.1444958,37.4278703,2333,Birch Street,,,,,94306,,f7b4094dd52bd40c,America/Los_Angeles
+-122.1270009,37.4437182,991,Blair Court,,,,,94303,,865a662415c6885b,America/Los_Angeles
+-122.1492324,37.4347296,123,Lowell Avenue,,,,,94301,,3416e85ad22bacd3,America/Los_Angeles
+-122.1531621,37.4451818,531,Addison Avenue,,,,,94301,,4833082feca139dc,America/Los_Angeles
+-122.1431217,37.4270266,2457,Birch Street,,,,,94306,,146aa0c756241c23,America/Los_Angeles
+-122.1488843,37.4346333,125,Lowell Avenue,,,,,94301,,ace9bd7c76d711cc,America/Los_Angeles
+-122.1344972,37.4485375,1684,Channing Avenue,,,,,94303,,e5c48db019d5a588,America/Los_Angeles
+-122.1406498,37.4256938,2771,Birch Street,,,,,94306,,7cd8932e94eae5ff,America/Los_Angeles
+-122.1531371,37.445208,533,Addison Avenue,,,,,94301,,6fa4bb7163af22df,America/Los_Angeles
+-122.1490693,37.4347609,127,Lowell Avenue,,,,,94301,,03ea8ef86decaf3a,America/Los_Angeles
+-122.1331398,37.4489902,1701,Channing Avenue,,,,,94303,,0a3bca070c42bc07,America/Los_Angeles
+-122.1340412,37.4219906,3370,Birch Street,,,,,94306,,f31a24ae54a9bb29,America/Los_Angeles
+-122.132915,37.4489918,1717,Channing Avenue,,,,,94303,,6f78dce2e1da31b4,America/Los_Angeles
+-122.1423233,37.4412996,685,Lowell Avenue,,,,,94301,,84262a932d622d12,America/Los_Angeles
+-122.1529939,37.445255,543,Addison Avenue,,,,,94301,,133344bc34f239dc,America/Los_Angeles
+-122.1338015,37.4221989,3395,Birch Street,,,,,94306,,bbc2df5f665edc61,America/Los_Angeles
+-122.1326021,37.4485511,1736,Channing Avenue,,,,,94303,,29b47f556da562b7,America/Los_Angeles
+-122.1481469,37.4500032,940,Addison Avenue,,,,,94301,,24b0ea9efe2ed40f,America/Los_Angeles
+-122.14808,37.4342252,1745,Alma Street,,,,,94301,,268e069c617c9edb,America/Los_Angeles
+-122.1424708,37.441203,663,Lowell Avenue,,,,,94301,,645a6929d0e2e458,America/Los_Angeles
+-122.134853,37.422248,3350,Birch Street,,,,,94306,,178e438ff7e57cef,America/Los_Angeles
+-122.1330335,37.4485552,1712,Channing Avenue,,,,,94303,,226a42f0f6e3f3db,America/Los_Angeles
+-122.1426063,37.4410246,651,Lowell Avenue,,,,,94301,,73b24adde9399ec9,America/Los_Angeles
+-122.1481846,37.4497956,936,Addison Avenue,,,,,94301,,2a18be980d8e52b5,America/Los_Angeles
+-122.1338872,37.4218989,3394,Birch Street,,,,,94306,,f79639591a689129,America/Los_Angeles
+-122.1187861,37.4150755,3791,Alma Street,,,,,94306,,5e566c2547d14cca,America/Los_Angeles
+-122.1327993,37.4485488,1724,Channing Avenue,,,,,94303,,28b67cc66030d1a0,America/Los_Angeles
+-122.1481835,37.4502245,956,Addison Avenue,,,,,94301,,0bbe0801b0fed04d,America/Los_Angeles
+-122.1273057,37.432902,2811,Middlefield Road,,,,,94306,,0f4d69fade40e018,America/Los_Angeles
+-122.1476807,37.4300269,1970,Birch Street,,,,,94306,,d406ba3a314e528b,America/Los_Angeles
+-122.1199791,37.4158446,3735,Alma Street,,,,,94306,,88ae96e8fd8a61f4,America/Los_Angeles
+-122.1343241,37.4485513,1690,Channing Avenue,,,,,94303,,3ec76e670df98ebf,America/Los_Angeles
+-122.1482068,37.450408,958,Addison Avenue,,,,,94301,,492f266095a2ada8,America/Los_Angeles
+-122.1287567,37.4332231,2775,Middlefield Road,,,,,94306,,87c8b3a94d01d877,America/Los_Angeles
+-122.14829,37.4303241,1900,Birch Street,,,,,94306,,bd976aea65ed49d0,America/Los_Angeles
+-122.12073,37.41634,3715,Alma Street,,,,,94306,,24fce6903d10493c,America/Los_Angeles
+-122.1340718,37.448537,1696,Channing Avenue,,,,,94303,,8552778c12abb015,America/Los_Angeles
+-122.152589,37.4451836,551,Addison Avenue,,,,,94301,,93eb23537496996f,America/Los_Angeles
+-122.128185,37.4329009,2799,Middlefield Road,,,,,94306,,a9109e38d3b92b06,America/Los_Angeles
+-122.1319305,37.4425452,2194,Louis Road,,,,,94303,,7fc3e5b5fc260e16,America/Los_Angeles
+-122.1060527,37.4148241,461,Ferne Avenue,,,,,94306,,b04660aea1851a5a,America/Los_Angeles
+-122.1113923,37.411966,4073,Ben Lomond Drive,,,,,94306,,bfb93fc0e1f2e7ae,America/Los_Angeles
+-122.1359726,37.4179895,570,Matadero Avenue,,,,,94306,,f801ae526cae2bf9,America/Los_Angeles
+-122.1269702,37.4478022,2146,Saint Francis Drive,,,,,94303,,329ca143b14897d2,America/Los_Angeles
+-122.1062776,37.4149326,455,Ferne Avenue,,,,,94306,,b15df9e1cccc9ea1,America/Los_Angeles
+-122.1112459,37.4121486,4077,Ben Lomond Drive,,,,,94306,,1cf4e73758da8cbb,America/Los_Angeles
+-122.1354628,37.4181708,568,Matadero Avenue,,,,,94306,,2d4d1b10081daed8,America/Los_Angeles
+-122.1269826,37.447982,2130,Saint Francis Drive,,,,,94303,,10bc0241a0b6e0ca,America/Los_Angeles
+-122.1071819,37.4151183,431,Ferne Avenue,,,,,94306,,0865e5b046540c6d,America/Los_Angeles
+-122.1110965,37.412305,4081,Ben Lomond Drive,,,,,94306,,ca4fe68d7053881f,America/Los_Angeles
+-122.1348662,37.4182614,525,Matadero Avenue,,,,,94306,,050ff9ecd19608c4,America/Los_Angeles
+-122.1260605,37.4483894,2105,Saint Francis Drive,,,,,94303,,0e22c1f175e0339d,America/Los_Angeles
+-122.1073651,37.4149157,425,Ferne Avenue,,,,,94306,,929a5b982aaeb6cb,America/Los_Angeles
+-122.1109375,37.412465,4085,Ben Lomond Drive,,,,,94306,,15af2a572ca7cec8,America/Los_Angeles
+-122.1330147,37.4193331,471,Matadero Avenue,,,,,94306,,0567bf3334874836,America/Los_Angeles
+-122.1260464,37.4478395,2129,Saint Francis Drive,,,,,94303,,bd4da17eec8c12de,America/Los_Angeles
+-122.1074836,37.4147783,419,Ferne Avenue,,,,,94306,,1bf0ce79feb381b5,America/Los_Angeles
+-122.1107791,37.4126061,4089,Ben Lomond Drive,,,,,94306,,43055e61202cf365,America/Los_Angeles
+-122.1579219,37.4473173,496,Hamilton Avenue,,,,,94301,,585fbc6f1cd96b5a,America/Los_Angeles
+-122.1260461,37.4479158,2125,Saint Francis Drive,,,,,94303,,b6d3b575b1bfa20a,America/Los_Angeles
+-122.1076536,37.4146011,413,Ferne Avenue,,,,,94306,,de33c8bf8396ac32,America/Los_Angeles
+-122.1106658,37.412081,4082,Ben Lomond Drive,,,,,94306,,90e592c58f2f5e2b,America/Los_Angeles
+-122.1583791,37.4465903,400,Hamilton Avenue,,,,,94301,,5c8ddbd6dbef1864,America/Los_Angeles
+-122.1260467,37.4479937,2121,Saint Francis Drive,,,,,94303,,2f4c3c601287be29,America/Los_Angeles
+-122.1078298,37.4144664,407,Ferne Avenue,,,,,94306,,87774b8f161ff968,America/Los_Angeles
+-122.1108189,37.4119269,4078,Ben Lomond Drive,,,,,94306,,135e416f360dae2f,America/Los_Angeles
+-122.1581852,37.4470531,470,Hamilton Avenue,,,,,94301,,ba0b1fb97bfbf6af,America/Los_Angeles
+-122.1260506,37.4480764,2115,Saint Francis Drive,,,,,94303,,8643b3675831dcd7,America/Los_Angeles
+-122.1079683,37.4143513,401,Ferne Avenue,,,,,94306,,c45f88e1e67a00c4,America/Los_Angeles
+-122.1109876,37.4117612,4074,Ben Lomond Drive,,,,,94306,,55421a694a468832,America/Los_Angeles
+-122.15726,37.4477513,524,Hamilton Avenue,,,,,94301,,7923900b91fb1748,America/Los_Angeles
+-122.1823852,37.4392455,1380,Sand Hill Road,,,,,94304,,d33c3ccefe6141c9,America/Los_Angeles
+-122.1065051,37.4145698,452,Ferne Avenue,,,,,94306,,639a1977c502c728,America/Los_Angeles
+-122.1260515,37.448164,2113,Saint Francis Drive,,,,,94303,,dcf8318595a98cf5,America/Los_Angeles
+-122.1569195,37.4482719,550,Hamilton Avenue,,,,,94301,,f5b6a4fd6d72db62,America/Los_Angeles
+-122.1111313,37.41161,4070,Ben Lomond Drive,,,,,94306,,6c897a4d5bc69544,America/Los_Angeles
+-122.1255512,37.4468588,2285,Saint Francis Drive,,,,,94303,,835aeeea006cfea9,America/Los_Angeles
+-122.1579798,37.447879,505,Hamilton Avenue,,,,,94301,,cafb038f0f2083ac,America/Los_Angeles
+-122.1066827,37.4144215,454,Ferne Avenue,,,,,94306,,b3949ca266277eee,America/Los_Angeles
+-122.1116627,37.411574,4062,Ben Lomond Drive,,,,,94306,,4c384f3b3a42f9ab,America/Los_Angeles
+-122.1764184,37.4404356,620,Sand Hill Road,,,,,94304,,4ff11f1576829e8c,America/Los_Angeles
+-122.125385,37.4469065,2291,Saint Francis Drive,,,,,94303,,820a92d643d6eb4d,America/Los_Angeles
+-122.1577628,37.4480857,525,Hamilton Avenue,,,,,94301,,440c33f4e116a98a,America/Los_Angeles
+-122.1068884,37.4142371,456,Ferne Avenue,,,,,94306,,d4d87ce0428fc323,America/Los_Angeles
+-122.1118493,37.4117181,4058,Ben Lomond Drive,,,,,94306,,a6e46472b2682c7e,America/Los_Angeles
+-122.1264162,37.4466978,2201,Saint Francis Drive,,,,,94303,,d1ebff1a1bd01ae9,America/Los_Angeles
+-122.1872982,37.4306823,1725,Sand Hill Road,,,,,94304,,d93607d759360e31,America/Los_Angeles
+-122.1576403,37.4482535,537,Hamilton Avenue,,,,,94301,,e508a9fbfdbe0e44,America/Los_Angeles
+-122.1303654,37.4099091,795,Cereza Drive,,,,,94306,,6eaf2f7d1875f991,America/Los_Angeles
+-122.1114359,37.4114618,4066,Ben Lomond Drive,,,,,94306,,7a6e828136b61b43,America/Los_Angeles
+-122.1251853,37.4469288,2297,Saint Francis Drive,,,,,94303,,63e1e9ea1c512c44,America/Los_Angeles
+-122.176929,37.4381955,778,Sand Hill Road,,,,,94304,,765dc075723b0696,America/Los_Angeles
+-122.1574801,37.4484151,555,Hamilton Avenue,,,,,94301,,6f698ba7e5dac2de,America/Los_Angeles
+-122.1302468,37.4100443,793,Cereza Drive,,,,,94306,,c37f86344cfd8e26,America/Los_Angeles
+-122.1120366,37.4118416,4054,Ben Lomond Drive,,,,,94306,,ef2787346ec3a71f,America/Los_Angeles
+-122.1250058,37.4469232,2303,Saint Francis Drive,,,,,94303,,a4cc4bf1f2b96193,America/Los_Angeles
+-122.1413073,37.4490006,890,Sharon Court,,,,,94301,,b23aa917085d82ed,America/Los_Angeles
+-122.1299918,37.4103451,787,Cereza Drive,,,,,94306,,e1b891e096f529ba,America/Los_Angeles
+-122.1574138,37.4485484,565,Hamilton Avenue,,,,,94301,,7fbed4f584ef46db,America/Los_Angeles
+-122.1248128,37.4469311,2311,Saint Francis Drive,,,,,94303,,03d0cafce0f6b9f9,America/Los_Angeles
+-122.1102271,37.4125225,4094,Ben Lomond Drive,,,,,94306,,6a3f93bc55e9b6db,America/Los_Angeles
+-122.1408604,37.4489303,893,Sharon Court,,,,,94301,,b99535a587d340b6,America/Los_Angeles
+-122.1301465,37.4102175,791,Cereza Drive,,,,,94306,,c00f89dd306b210d,America/Los_Angeles
+-122.1246136,37.4468811,2317,Saint Francis Drive,,,,,94303,,434692fae3f45cad,America/Los_Angeles
+-122.1572131,37.4486845,571,Hamilton Avenue,,,,,94301,,2c746afd1c6e5638,America/Los_Angeles
+-122.1103684,37.4123803,4090,Ben Lomond Drive,,,,,94306,,6207fae1a24ce694,America/Los_Angeles
+-122.1408628,37.4491289,885,Sharon Court,,,,,94301,,bc4eb05e52e9498e,America/Los_Angeles
+-122.1243903,37.4469486,2327,Saint Francis Drive,,,,,94303,,15f129edc864b689,America/Los_Angeles
+-122.1554205,37.4496547,660,Hamilton Avenue,,,,,94301,,559abcd251cca8b4,America/Los_Angeles
+-122.129898,37.4105103,783,Cereza Drive,,,,,94306,,4a3d50da079e6cd5,America/Los_Angeles
+-122.1273254,37.4409582,2430,Agnes Way,,,,,94303,,15532c127462d627,America/Los_Angeles
+-122.1408287,37.4492869,877,Sharon Court,,,,,94301,,93d4237217952c3e,America/Los_Angeles
+-122.124299,37.44677,2337,Saint Francis Drive,,,,,94303,,c441a25494c18f19,America/Los_Angeles
+-122.1558086,37.4494293,662,Hamilton Avenue,,,,,94301,,cbbbb081d619e15e,America/Los_Angeles
+-122.1297715,37.410681,775,Cereza Drive,,,,,94306,,fce2b5cc42ae12a1,America/Los_Angeles
+-122.1271328,37.4408288,2440,Agnes Way,,,,,94303,,68e14ce9ab242a90,America/Los_Angeles
+-122.1413227,37.4493016,870,Sharon Court,,,,,94301,,561a2baa5a8f11a7,America/Los_Angeles
+-122.1252735,37.4463862,2296,Saint Francis Drive,,,,,94303,,172129e837525650,America/Los_Angeles
+-122.1307272,37.4102682,788,Cereza Drive,,,,,94306,,97f102c97f7ec7af,America/Los_Angeles
+-122.1557813,37.4491339,642,Hamilton Avenue,,,,,94301,,a998f61cecac95a0,America/Los_Angeles
+-122.1270342,37.4407482,2450,Agnes Way,,,,,94303,,f54e5218a0c3e625,America/Los_Angeles
+-122.1408605,37.4494546,869,Sharon Court,,,,,94301,,13de3d0cbe03d2cc,America/Los_Angeles
+-122.1255306,37.4461443,2286,Saint Francis Drive,,,,,94303,,425a20599632d29a,America/Los_Angeles
+-122.1555214,37.4489808,644,Hamilton Avenue,,,,,94301,,d59d88e74eebd52b,America/Los_Angeles
+-122.1304904,37.4105897,784,Cereza Drive,,,,,94306,,456c8ac1b4504212,America/Los_Angeles
+-122.1268117,37.440629,2460,Agnes Way,,,,,94303,,c0afcb5edb6d66c9,America/Los_Angeles
+-122.140885,37.4497113,861,Sharon Court,,,,,94301,,f926eef122be1f29,America/Los_Angeles
+-122.1253854,37.4462438,2290,Saint Francis Drive,,,,,94303,,3cfa49485ef977b2,America/Los_Angeles
+-122.130614,37.410457,786,Cereza Drive,,,,,94306,,6f924644f40793b0,America/Los_Angeles
+-122.1554946,37.4490079,652,Hamilton Avenue,,,,,94301,,a30db2aa5c49b6c1,America/Los_Angeles
+-122.1266919,37.4405438,2470,Agnes Way,,,,,94303,,a1f52cda7c89a65d,America/Los_Angeles
+-122.1413127,37.4497243,850,Sharon Court,,,,,94301,,9f312cf6a157f7c6,America/Los_Angeles
+-122.1297868,37.4113831,752,Cereza Drive,,,,,94306,,4e1fae18a9c54007,America/Los_Angeles
+-122.1247804,37.4461903,2344,Saint Francis Drive,,,,,94303,,9f805529ee33147d,America/Los_Angeles
+-122.1559069,37.4490568,630,Hamilton Avenue,,,,,94301,,7d5567ffea4367cd,America/Los_Angeles
+-122.1265242,37.4404327,2480,Agnes Way,,,,,94303,,f381fb277c764182,America/Los_Angeles
+-122.1410672,37.4497912,853,Sharon Court,,,,,94301,,b53ae2d9393895bf,America/Los_Angeles
+-122.1249199,37.446278,2336,Saint Francis Drive,,,,,94303,,ce7d3bc35b4555e8,America/Los_Angeles
+-122.1303478,37.4107971,780,Cereza Drive,,,,,94306,,7fba663bb49796e2,America/Los_Angeles
+-122.1556455,37.4488562,634,Hamilton Avenue,,,,,94301,,1eb721d5c6bc5b81,America/Los_Angeles
+-122.1263055,37.4403304,2490,Agnes Way,,,,,94303,,8d68365bfaa9a338,America/Los_Angeles
+-122.1092008,37.4141945,373,Shasta Drive,,,,,94306,,08cf60e7cdb3219e,America/Los_Angeles
+-122.1249496,37.4464408,2310,Saint Francis Drive,,,,,94303,,2f7a47fd2afe12ad,America/Los_Angeles
+-122.1556307,37.4488736,636,Hamilton Avenue,,,,,94301,,b7fde837c42aa6dd,America/Los_Angeles
+-122.1302386,37.4108865,776,Cereza Drive,,,,,94306,,97582726270f66ce,America/Los_Angeles
+-122.1354327,37.4326017,486,Anton Court,,,,,94301,,3d9f45a8f3f9478a,America/Los_Angeles
+-122.1093244,37.4140458,363,Shasta Drive,,,,,94306,,e9d2962ffadebfe7,America/Los_Angeles
+-122.1251355,37.446574,2300,Saint Francis Drive,,,,,94303,,5c037f75e4a7c2bd,America/Los_Angeles
+-122.1556108,37.4488911,638,Hamilton Avenue,,,,,94301,,44e506a86c4eb94b,America/Los_Angeles
+-122.1355293,37.4324675,480,Anton Court,,,,,94301,,977a5aa135cd28ae,America/Los_Angeles
+-122.1300709,37.4110299,772,Cereza Drive,,,,,94306,,5117181a37eceb15,America/Los_Angeles
+-122.1094776,37.413916,343,Shasta Drive,,,,,94306,,86a3f8efa3bcb57b,America/Los_Angeles
+-122.1555942,37.4489074,640,Hamilton Avenue,,,,,94301,,b8f94ec7c85fe756,America/Los_Angeles
+-122.1236931,37.446166,2385,Saint Francis Drive,,,,,94303,,edfaef470f85fdaf,America/Los_Angeles
+-122.135813,37.4323745,470,Anton Court,,,,,94301,,48894b80b441d244,America/Los_Angeles
+-122.129928,37.4112032,764,Cereza Drive,,,,,94306,,860e66e6e742996e,America/Los_Angeles
+-122.1096182,37.4137684,331,Shasta Drive,,,,,94306,,db347a5261a72bd7,America/Los_Angeles
+-122.1568327,37.4493239,625,Hamilton Avenue,,,,,94301,,ec777f4ccee67074,America/Los_Angeles
+-122.1238652,37.446225,2377,Saint Francis Drive,,,,,94303,,e6101971bd8b4df9,America/Los_Angeles
+-122.1349399,37.4433804,1920,Barbara Drive,,,,,94303,,7c036643ad70fbba,America/Los_Angeles
+-122.1296431,37.4108281,765,Cereza Drive,,,,,94306,,4f9c680956fd0f3a,America/Los_Angeles
+-122.1098527,37.4135266,317,Shasta Drive,,,,,94306,,6cb7bf182f5b164f,America/Los_Angeles
+-122.1554232,37.4494598,674,Hamilton Avenue,,,,,94301,,5e008a773466c61f,America/Los_Angeles
+-122.1352306,37.4436126,1900,Barbara Drive,,,,,94303,,c66d1a019a523fb6,America/Los_Angeles
+-122.1295214,37.4109843,763,Cereza Drive,,,,,94306,,00f0e5d77d9a8244,America/Los_Angeles
+-122.1087768,37.4139699,370,Shasta Drive,,,,,94306,,7c32b921031336fd,America/Los_Angeles
+-122.1239906,37.4463105,2369,Saint Francis Drive,,,,,94303,,c47e95f7f542dd6d,America/Los_Angeles
+-122.1555074,37.4493802,672,Hamilton Avenue,,,,,94301,,03ac30c9c53825bf,America/Los_Angeles
+-122.1346459,37.4432202,1950,Barbara Drive,,,,,94303,,daab8fd9522266d9,America/Los_Angeles
+-122.1089586,37.4137808,360,Shasta Drive,,,,,94306,,ef92afe38c45744d,America/Los_Angeles
+-122.1294012,37.41113,757,Cereza Drive,,,,,94306,,7b8748e4e2f1b20b,America/Los_Angeles
+-122.1552999,37.4495646,676,Hamilton Avenue,,,,,94301,,8dd11dca52489fb7,America/Los_Angeles
+-122.1241765,37.4463388,2361,Saint Francis Drive,,,,,94303,,7a350f7ce43ef6a7,America/Los_Angeles
+-122.1344509,37.4430729,1992,Barbara Drive,,,,,94303,,f76985b167ca8c8f,America/Los_Angeles
+-122.1085912,37.4141323,396,Shasta Drive,,,,,94306,,abf4f7fc5c49c2fd,America/Los_Angeles
+-122.1292647,37.4112785,743,Cereza Drive,,,,,94306,,57d1a0b7876ffc64,America/Los_Angeles
+-122.1556395,37.4493008,670,Hamilton Avenue,,,,,94301,,d222d3ee7b67ad91,America/Los_Angeles
+-122.124389,37.4464527,2353,Saint Francis Drive,,,,,94303,,d1ec173b253b39a0,America/Los_Angeles
+-122.1347727,37.4438187,1911,Barbara Drive,,,,,94303,,04686a63677349ec,America/Los_Angeles
+-122.1213309,37.4149815,254,Tennessee Lane,,,,,94306,,61b61b9d916dee6b,America/Los_Angeles
+-122.1308443,37.4101434,790,Cereza Drive,,,,,94306,,4717005c18b4c352,America/Los_Angeles
+-122.1557482,37.44931,668,Hamilton Avenue,,,,,94301,,f0d9296d3ac5306c,America/Los_Angeles
+-122.1242796,37.4465841,2345,Saint Francis Drive,,,,,94303,,0bc01900196cb5cd,America/Los_Angeles
+-122.1325593,37.4418642,2190,Barbara Drive,,,,,94303,,fb5bd77329dbce5a,America/Los_Angeles
+-122.1214811,37.4148348,274,Tennessee Lane,,,,,94306,,de9c487a516d8104,America/Los_Angeles
+-122.1557004,37.4495312,664,Hamilton Avenue,,,,,94301,,00a931b73488a8f5,America/Los_Angeles
+-122.1257186,37.4465982,2279,Saint Francis Drive,,,,,94303,,c05fd180f4a28a12,America/Los_Angeles
+-122.1309416,37.4100082,796,Cereza Drive,,,,,94306,,ee72e0e1e60afbe5,America/Los_Angeles
+-122.1327523,37.4419697,2180,Barbara Drive,,,,,94303,,31b1f1ad8feba889,America/Los_Angeles
+-122.1216116,37.4147527,284,Tennessee Lane,,,,,94306,,958f6986236b77d6,America/Los_Angeles
+-122.1258474,37.4464564,2273,Saint Francis Drive,,,,,94303,,539b12ba8c8e6e00,America/Los_Angeles
+-122.1304569,37.4492736,1860,Hamilton Avenue,,,,,94303,,e672dcacce936b71,America/Los_Angeles
+-122.1696911,37.3735263,3077,Country Club Court,,,,,94304,,e6459007612cc830,America/Los_Angeles
+-122.132893,37.4421214,2150,Barbara Drive,,,,,94303,,3fd8fbebce8f5d2c,America/Los_Angeles
+-122.121758,37.4146094,294,Tennessee Lane,,,,,94306,,cd1079effac1e346,America/Los_Angeles
+-122.1260429,37.4463902,2267,Saint Francis Drive,,,,,94303,,2da4d15c07363db4,America/Los_Angeles
+-122.1697888,37.3754663,3020,Country Club Court,,,,,94304,,76780f265ea1edaa,America/Los_Angeles
+-122.1330609,37.4422691,2130,Barbara Drive,,,,,94303,,a12bc1a408369919,America/Los_Angeles
+-122.1302508,37.4492964,1870,Hamilton Avenue,,,,,94303,,7ed23b3e83b4b834,America/Los_Angeles
+-122.1218767,37.4144704,334,Tennessee Lane,,,,,94306,,8f3f4bfc64449396,America/Los_Angeles
+-122.1260709,37.4460131,2270,Saint Francis Drive,,,,,94303,,b9085d32286ffa55,America/Los_Angeles
+-122.1300496,37.4492771,1880,Hamilton Avenue,,,,,94303,,54a9e911702c56b5,America/Los_Angeles
+-122.1332712,37.4423672,2110,Barbara Drive,,,,,94303,,4063d37964ce2102,America/Los_Angeles
+-122.169717,37.3749812,3030,Country Club Court,,,,,94304,,a400a22d4f87bd98,America/Los_Angeles
+-122.1219942,37.4143729,344,Tennessee Lane,,,,,94306,,a96f9e5bddd1e211,America/Los_Angeles
+-122.1318456,37.4264371,2916,Bryant Street,,,,,94306,,bb43cfd08bf63803,America/Los_Angeles
+-122.1334566,37.4424838,2090,Barbara Drive,,,,,94303,,53ff63f0ec23d6a4,America/Los_Angeles
+-122.1690336,37.3748672,3029,Country Club Court,,,,,94304,,7a43203a18e8a2ab,America/Los_Angeles
+-122.1304133,37.4497135,1863,Hamilton Avenue,,,,,94303,,e6c3f9727547f4d4,America/Los_Angeles
+-122.1221318,37.4142778,354,Tennessee Lane,,,,,94306,,2c25fa061492ebc7,America/Los_Angeles
+-122.1302227,37.4497108,1871,Hamilton Avenue,,,,,94303,,3391131fd7786779,America/Los_Angeles
+-122.1336646,37.4425908,2066,Barbara Drive,,,,,94303,,8de8f847467b7a53,America/Los_Angeles
+-122.1319946,37.4265117,2900,Bryant Street,,,,,94306,,2707fc7234760374,America/Los_Angeles
+-122.1692665,37.3742314,3035,Country Club Court,,,,,94304,,fc1fccbfc26caeeb,America/Los_Angeles
+-122.122303,37.4141461,364,Tennessee Lane,,,,,94306,,6917ecc37f785579,America/Los_Angeles
+-122.1321258,37.4265799,2898,Bryant Street,,,,,94306,,998885709e0a7722,America/Los_Angeles
+-122.1209055,37.4146582,253,Tennessee Lane,,,,,94306,,87ccbd84867f2a48,America/Los_Angeles
+-122.16952,37.3739089,3073,Country Club Court,,,,,94304,,cf7ca59e3fee19e2,America/Los_Angeles
+-122.133856,37.442698,2042,Barbara Drive,,,,,94303,,250bad9263708f49,America/Los_Angeles
+-122.1300127,37.4497028,1879,Hamilton Avenue,,,,,94303,,0ba3135633dd45ac,America/Los_Angeles
+-122.132265,37.4266676,2892,Bryant Street,,,,,94306,,8117ad0a4d386c41,America/Los_Angeles
+-122.1210498,37.4145437,273,Tennessee Lane,,,,,94306,,ee2163eaff52368c,America/Los_Angeles
+-122.1703208,37.3737109,3089,Country Club Court,,,,,94304,,ce693c81739d582d,America/Los_Angeles
+-122.1342323,37.4429305,2002,Barbara Drive,,,,,94303,,1168c34543730524,America/Los_Angeles
+-122.1326666,37.4496035,1796,Hamilton Avenue,,,,,94303,,fa2051a6ba666993,America/Los_Angeles
+-122.132367,37.4267775,2878,Bryant Street,,,,,94306,,d6508b7a5081370e,America/Los_Angeles
+-122.1188711,37.4399133,1049,Colorado Avenue,,,,,94303,,a85200a5d616f13f,America/Los_Angeles
+-122.1340176,37.4428286,2022,Barbara Drive,,,,,94303,,3a7d6f09bce3929e,America/Los_Angeles
+-122.1699825,37.3758486,3010,Country Club Court,,,,,94304,,2afe8392f1bfdda7,America/Los_Angeles
+-122.1259966,37.4170865,303,Maclane,,,,,94306,,6dec7964c7d5782e,America/Los_Angeles
+-122.1325366,37.4268891,2862,Bryant Street,,,,,94306,,96c125be973796a2,America/Los_Angeles
+-122.1188545,37.4399229,1051,Colorado Avenue,,,,,94303,,0d5ba8e197bf6dee,America/Los_Angeles
+-122.1331448,37.4428148,2091,Barbara Drive,,,,,94303,,c574cbe6c1d3df63,America/Los_Angeles
+-122.1255836,37.4180045,201,Maclane,,,,,94306,,ab71d1abd957bba4,America/Los_Angeles
+-122.1698529,37.3743299,3050,Country Club Court,,,,,94304,,fafd82f8278c1746,America/Los_Angeles
+-122.1327132,37.4270028,2848,Bryant Street,,,,,94306,,522cd6078b689467,America/Los_Angeles
+-122.1188376,37.4399328,1053,Colorado Avenue,,,,,94303,,306614c0aa4e76b7,America/Los_Angeles
+-122.1329403,37.4427208,2111,Barbara Drive,,,,,94303,,18ef8e7955e36d5c,America/Los_Angeles
+-122.125682,37.4178993,207,Maclane,,,,,94306,,f8245d3c95f7d197,America/Los_Angeles
+-122.1333845,37.4172592,538,Barron Avenue,,,,,94306,,ae4f744c8bcb1243,America/Los_Angeles
+-122.1476385,37.4440797,651,Melville Avenue,,,,,94301,,5159a241bcae8122,America/Los_Angeles
+-122.1403456,37.4270639,167,California Avenue,,,,,94306,,3a9338476612151d,America/Los_Angeles
+-122.1519776,37.421433,1142,College Avenue,,,,,94306,,c2d0c79eca992db0,America/Los_Angeles
+-122.1424739,37.4483107,945,Hutchinson Avenue,,,,,94301,,b69458a5dc6b2b28,America/Los_Angeles
+-122.1335822,37.4170372,560,Barron Avenue,,,,,94306,,ec44accc71c802f7,America/Los_Angeles
+-122.1518897,37.4215976,1120,College Avenue,,,,,94306,,5a305ea08039757a,America/Los_Angeles
+-122.1475218,37.4441185,653,Melville Avenue,,,,,94301,,7ff182c9eb0a5ba3,America/Los_Angeles
+-122.1403389,37.4270853,165,California Avenue,,,,,94306,,553b540e15611d7c,America/Los_Angeles
+-122.1084353,37.4230366,751,Gailen Avenue,,,,,94303,,62ee08de96517ddd,America/Los_Angeles
+-122.1507922,37.4219235,1021,College Avenue,,,,,94306,,32d0a8c81e426c44,America/Los_Angeles
+-122.1335201,37.4171379,548,Barron Avenue,,,,,94306,,5bd99c11383034e8,America/Los_Angeles
+-122.1437516,37.4267996,345,California Avenue,,,,,94306,,b21a587bca1705c2,America/Los_Angeles
+-122.1468105,37.4441788,680,Melville Avenue,,,,,94301,,1dce378f69c5e64f,America/Los_Angeles
+-122.108197,37.4231191,759,Gailen Avenue,,,,,94303,,918393f320397585,America/Los_Angeles
+-122.1336858,37.4169118,568,Barron Avenue,,,,,94306,,8355555193bc58c1,America/Los_Angeles
+-122.1439413,37.4269065,341,California Avenue,,,,,94306,,f57b188de848362e,America/Los_Angeles
+-122.1469341,37.4440703,672,Melville Avenue,,,,,94301,,c7ab28e8fcf91eac,America/Los_Angeles
+-122.1503324,37.4225415,941,College Avenue,,,,,94306,,d0d70de0a3763e79,America/Los_Angeles
+-122.1079971,37.4232175,765,Gailen Avenue,,,,,94303,,0b23c7f90bca5892,America/Los_Angeles
+-122.1328764,37.4179418,506,Barron Avenue,,,,,94306,,a2d19c2824179adc,America/Los_Angeles
+-122.145992,37.4453387,742,Melville Avenue,,,,,94301,,1bcd56381034d83a,America/Los_Angeles
+-122.1437753,37.4267708,347,California Avenue,,,,,94306,,3a752ad4a34b05a8,America/Los_Angeles
+-122.1504421,37.4223913,961,College Avenue,,,,,94306,,374ad97a09713fe6,America/Los_Angeles
+-122.1077776,37.4232859,771,Gailen Avenue,,,,,94303,,77186e9a2b7649df,America/Los_Angeles
+-122.1460674,37.4450668,734,Melville Avenue,,,,,94301,,d803612ddec3ccb4,America/Los_Angeles
+-122.1325791,37.4176468,505,Barron Avenue,,,,,94306,,963c44e59adb70b9,America/Los_Angeles
+-122.14504,37.4269364,370,California Avenue,,,,,94306,,1ade2ac70266a3d6,America/Los_Angeles
+-122.1505327,37.4222984,981,College Avenue,,,,,94306,,53a8e9b3363457fd,America/Los_Angeles
+-122.1075774,37.4233653,779,Gailen Avenue,,,,,94303,,7874bd0137c8b6e6,America/Los_Angeles
+-122.1541418,37.4374201,103,Melville Avenue,,,,,94301,,49c885464501ef3b,America/Los_Angeles
+-122.1379017,37.4112439,892,Barron Avenue,,,,,94306,,c0d82de464074413,America/Los_Angeles
+-122.1450142,37.4269676,368,California Avenue,,,,,94306,,5e9db2efda228a74,America/Los_Angeles
+-122.1545246,37.41748,1671,College Avenue,,,,,94306,,a7e84ab072b39a7e,America/Los_Angeles
+-122.1073836,37.4234486,785,Gailen Avenue,,,,,94303,,40afe26593006fdf,America/Los_Angeles
+-122.1447934,37.426855,366,California Avenue,,,,,94306,,d79306a4596aa2be,America/Los_Angeles
+-122.1544547,37.4175725,1651,College Avenue,,,,,94306,,a60ae049fb1584b4,America/Los_Angeles
+-122.1375351,37.4108743,897,Barron Avenue,,,,,94306,,4bc73f82836532a8,America/Los_Angeles
+-122.1536576,37.4380156,151,Melville Avenue,,,,,94301,,dc657ee4f2da01d8,America/Los_Angeles
+-122.1071803,37.4235357,791,Gailen Avenue,,,,,94303,,35e4e0826967c2f6,America/Los_Angeles
+-122.1372801,37.4111694,895,Barron Avenue,,,,,94306,,f9dbc01c71334cf7,America/Los_Angeles
+-122.1544207,37.4176558,1627,College Avenue,,,,,94306,,ab753b8e5c6460b4,America/Los_Angeles
+-122.1534542,37.4381794,159,Melville Avenue,,,,,94301,,8da8468c2ab1cf03,America/Los_Angeles
+-122.1445592,37.4271152,340,California Avenue,,,,,94306,,af4c40f0d4a42bf5,America/Los_Angeles
+-122.1069912,37.4236138,795,Gailen Avenue,,,,,94303,,6f38c4fbbc9dde86,America/Los_Angeles
+-122.1362901,37.412419,829,Barron Avenue,,,,,94306,,f66986642259b39f,America/Los_Angeles
+-122.1550614,37.4177491,1670,College Avenue,,,,,94306,,48e231e9f32d509b,America/Los_Angeles
+-122.1537564,37.4372045,104,Melville Avenue,,,,,94301,,24899673827892fb,America/Los_Angeles
+-122.1445866,37.4270843,344,California Avenue,,,,,94306,,5f65a1b595113145,America/Los_Angeles
+-122.1070045,37.4231109,790,Gailen Avenue,,,,,94303,,f0765e8146074f13,America/Los_Angeles
+-122.1367751,37.4118929,879,Barron Avenue,,,,,94306,,74344abaef6142b1,America/Los_Angeles
+-122.1534187,37.4371827,114,Melville Avenue,,,,,94301,,2b7e9cc398407704,America/Los_Angeles
+-122.1551083,37.4177007,1680,College Avenue,,,,,94306,,4fbe0823c9f204ce,America/Los_Angeles
+-122.1446172,37.4270451,350,California Avenue,,,,,94306,,ba4f660b13212913,America/Los_Angeles
+-122.1068316,37.4232078,796,Gailen Avenue,,,,,94303,,e1333f4fed69e152,America/Los_Angeles
+-122.1364768,37.4122531,859,Barron Avenue,,,,,94306,,87014ebae718af40,America/Los_Angeles
+-122.153637,37.4372794,116,Melville Avenue,,,,,94301,,6505f00e5b89e1a7,America/Los_Angeles
+-122.1444844,37.4272168,330,California Avenue,,,,,94306,,c6797d3a44080fb6,America/Los_Angeles
+-122.1550211,37.4178066,1660,College Avenue,,,,,94306,,324c0443e308d4cf,America/Los_Angeles
+-122.1057173,37.4241555,823,Gailen Avenue,,,,,94303,,746ad7ccdb8e40e9,America/Los_Angeles
+-122.137358,37.4119331,864,Barron Avenue,,,,,94306,,f8eb578f7bb70294,America/Los_Angeles
+-122.1534845,37.4373579,120,Melville Avenue,,,,,94301,,bbd7757e1d223bd1,America/Los_Angeles
+-122.1549694,37.4178694,1650,College Avenue,,,,,94306,,3f6c6da5e8ffc4e2,America/Los_Angeles
+-122.1444323,37.427311,320,California Avenue,,,,,94306,,f2d5d60450b08af7,America/Los_Angeles
+-122.1061059,37.4239636,811,Gailen Avenue,,,,,94303,,62ab6a41e8d74c88,America/Los_Angeles
+-122.1477146,37.42529,556,Cambridge Avenue,,,,,94306,,23f6bec501e4e3dd,America/Los_Angeles
+-122.1540751,37.4375391,107,Melville Avenue,,,,,94301,,866d767018433a6c,America/Los_Angeles
+-122.1549192,37.4179217,1642,College Avenue,,,,,94306,,f90ee73f62bf2859,America/Los_Angeles
+-122.144342,37.4274184,310,California Avenue,,,,,94306,,641350e67da3681d,America/Los_Angeles
+-122.1062948,37.4238852,805,Gailen Avenue,,,,,94303,,d60b80d61680c10f,America/Los_Angeles
+-122.1541887,37.4376352,109,Melville Avenue,,,,,94301,,167d92ee1d27a865,America/Los_Angeles
+-122.1436286,37.428354,220,California Avenue,,,,,94306,,584c5edef4a68853,America/Los_Angeles
+-122.1476894,37.4253122,554,Cambridge Avenue,,,,,94306,,26da46af49c0cbd7,America/Los_Angeles
+-122.1547523,37.4180475,1610,College Avenue,,,,,94306,,50531b1788fdf26c,America/Los_Angeles
+-122.1059156,37.4240694,817,Gailen Avenue,,,,,94303,,f0cf987941a29239,America/Los_Angeles
+-122.1539761,37.4376459,111,Melville Avenue,,,,,94301,,5c631562717b513d,America/Los_Angeles
+-122.1476827,37.4253317,552,Cambridge Avenue,,,,,94306,,032a3c46c389c1d7,America/Los_Angeles
+-122.154483,37.4184342,1560,College Avenue,,,,,94306,,8d4754dd9ea5d1d5,America/Los_Angeles
+-122.1437369,37.4282311,230,California Avenue,,,,,94306,,d396a756ed087091,America/Los_Angeles
+-122.1062026,37.423455,804,Gailen Avenue,,,,,94303,,8c66339813400045,America/Los_Angeles
+-122.154197,37.4187559,1506,College Avenue,,,,,94306,,41ebdc9f890d44a9,America/Los_Angeles
+-122.1540587,37.4377525,113,Melville Avenue,,,,,94301,,d2df69c2c3d90484,America/Los_Angeles
+-122.1437378,37.4281361,240,California Avenue,,,,,94306,,f3bb1a100f2bc538,America/Los_Angeles
+-122.1058515,37.4236335,812,Gailen Avenue,,,,,94303,,81e74934102b4abc,America/Los_Angeles
+-122.1477964,37.42513,570,Cambridge Avenue,,,,,94306,,54e3268a36e59456,America/Los_Angeles
+-122.1543036,37.4186265,1528,College Avenue,,,,,94306,,95c4a3ee65c44334,America/Los_Angeles
+-122.144088,37.4276683,290,California Avenue,,,,,94306,,356d3b80f195e1e8,America/Los_Angeles
+-122.1539053,37.4378278,127,Melville Avenue,,,,,94301,,9b9c2dc737de82d3,America/Los_Angeles
+-122.1334204,37.4377674,743,Garland Drive,,,,,94303,,3d3adaa3bc50defe,America/Los_Angeles
+-122.1475816,37.4250655,566,Cambridge Avenue,,,,,94306,,20bdb92d96a0b2e1,America/Los_Angeles
+-122.1543911,37.4185544,1540,College Avenue,,,,,94306,,c1d6aa66d4da6521,America/Los_Angeles
+-122.1439106,37.4279178,260,California Avenue,,,,,94306,,8cafc40c8f663c42,America/Los_Angeles
+-122.1541238,37.4379444,129,Melville Avenue,,,,,94301,,8f0b1b1c2ca3d54b,America/Los_Angeles
+-122.1339688,37.4366601,701,Garland Drive,,,,,94303,,6ea4cbe8b0486a8d,America/Los_Angeles
+-122.1479084,37.4249407,592,Cambridge Avenue,,,,,94306,,b0d3885bd8ba7035,America/Los_Angeles
+-122.1543297,37.4177822,1611,College Avenue,,,,,94306,,4078678e75ffa30d,America/Los_Angeles
+-122.1435851,37.4274328,299,California Avenue,,,,,94306,,0b5b504db116e29d,America/Los_Angeles
+-122.158077,37.4518115,359,Middlefield Road,,,,,94301,,4c7a0ffbc0e4cd16,America/Los_Angeles
+-122.1336989,37.436413,702,Garland Drive,,,,,94303,,650292fc92542ec9,America/Los_Angeles
+-122.1478875,37.4249674,588,Cambridge Avenue,,,,,94306,,5ecfdabf34ab9ca7,America/Los_Angeles
+-122.1433007,37.4278189,249,California Avenue,,,,,94306,,957ddb013bc8059c,America/Los_Angeles
+-122.1539914,37.4181551,1567,College Avenue,,,,,94306,,bd95cb5dec07ae41,America/Los_Angeles
+-122.1582274,37.4518922,351,Middlefield Road,,,,,94301,,d2b82f30852d31c8,America/Los_Angeles
+-122.1310859,37.4390079,818,Garland Drive,,,,,94303,,f307d1ab219f19fa,America/Los_Angeles
+-122.1434,37.4289426,164,California Avenue,,,,,94306,,3c3e1477a55a7386,America/Los_Angeles
+-122.1583377,37.4519597,345,Middlefield Road,,,,,94301,,41d24d104d55947b,America/Los_Angeles
+-122.1539052,37.4182671,1551,College Avenue,,,,,94306,,ad1bdf321807c8be,America/Los_Angeles
+-122.1478676,37.4249923,584,Cambridge Avenue,,,,,94306,,f9a9d510f1516a59,America/Los_Angeles
+-122.1313042,37.4390027,814,Garland Drive,,,,,94303,,6b5f5cdd70df6076,America/Los_Angeles
+-122.143763,37.4291447,156,California Avenue,,,,,94306,,ca20f7a1310efbf6,America/Los_Angeles
+-122.1588629,37.4523281,311,Middlefield Road,,,,,94301,,6de5c8a24ee3bba6,America/Los_Angeles
+-122.154071,37.4180508,1585,College Avenue,,,,,94306,,eedcd1d78376381f,America/Los_Angeles
+-122.147828,37.4250378,576,Cambridge Avenue,,,,,94306,,6454d9d40e6aea62,America/Los_Angeles
+-122.1326026,37.4380316,760,Garland Drive,,,,,94303,,6a31face8de91aae,America/Los_Angeles
+-122.1584839,37.4520661,335,Middlefield Road,,,,,94301,,6b7f596d8ce090e0,America/Los_Angeles
+-122.1431193,37.4281352,201,California Avenue,,,,,94306,,e8164b33ecb639ff,America/Los_Angeles
+-122.1535019,37.4187351,1487,College Avenue,,,,,94306,,682a5ab0ff294ec5,America/Los_Angeles
+-122.1458929,37.4262732,475,Cambridge Avenue,,,,,94306,,b04d9331f15dd14b,America/Los_Angeles
+-122.1320349,37.4382056,768,Garland Drive,,,,,94303,,bac6c9968d2e9eb2,America/Los_Angeles
+-122.1585961,37.4521271,329,Middlefield Road,,,,,94301,,f8b127d3a4e03156,America/Los_Angeles
+-122.1537003,37.4184965,1531,College Avenue,,,,,94306,,fe8a95982fd90f38,America/Los_Angeles
+-122.1429869,37.428155,205,California Avenue,,,,,94306,,5edb17f6c1b8f992,America/Los_Angeles
+-122.1456695,37.4273319,390,Cambridge Avenue,,,,,94306,,c2a543692ac72e3b,America/Los_Angeles
+-122.1317742,37.4394777,813,Garland Drive,,,,,94303,,6af920d38cf121ad,America/Los_Angeles
+-122.158657,37.4521702,325,Middlefield Road,,,,,94301,,bae9f387301850e8,America/Los_Angeles
+-122.1430022,37.4281368,209,California Avenue,,,,,94306,,67b90f8d7ac9eeed,America/Los_Angeles
+-122.1441229,37.4284585,275,Cambridge Avenue,,,,,94306,,70742181d9360619,America/Los_Angeles
+-122.1537962,37.4183727,1535,College Avenue,,,,,94306,,00591833c29edd03,America/Los_Angeles
+-122.1334272,37.4379444,749,Garland Drive,,,,,94303,,898dae35f8f68179,America/Los_Angeles
+-122.1587485,37.4522314,319,Middlefield Road,,,,,94301,,c1b677a067d11342,America/Los_Angeles
+-122.1430165,37.428119,213,California Avenue,,,,,94306,,06f7133ca4e33fa9,America/Los_Angeles
+-122.1445321,37.4286661,276,Cambridge Avenue,,,,,94306,,8b83e49b6f9beeeb,America/Los_Angeles
+-122.1539244,37.4191295,1460,College Avenue,,,,,94306,,7f17ab323dd3777d,America/Los_Angeles
+-122.133001,37.4382925,761,Garland Drive,,,,,94303,,fa074225501e0061,America/Los_Angeles
+-122.1125167,37.4235655,3775,Middlefield Road,,,,,94303,,11351c9669843916,America/Los_Angeles
+-122.1430292,37.428108,217,California Avenue,,,,,94306,,52de959ab3cd5f4c,America/Los_Angeles
+-122.1453507,37.4276351,370,Cambridge Avenue,,,,,94306,,7542dc442797a6fd,America/Los_Angeles
+-122.1538547,37.4191885,1450,College Avenue,,,,,94306,,3afd82dc56cb7bb4,America/Los_Angeles
+-122.1331273,37.4382172,757,Garland Drive,,,,,94303,,934002c803ec40f9,America/Los_Angeles
+-122.1174168,37.4262004,3465,Middlefield Road,,,,,94306,,d6e8a8096387ae86,America/Los_Angeles
+-122.1452048,37.4272517,391,Cambridge Avenue,,,,,94306,,0420293541de587d,America/Los_Angeles
+-122.1476804,37.4233306,720,California Avenue,,,,,94306,,c5fdbb4a28d4b166,America/Los_Angeles
+-122.1537984,37.4192825,1436,College Avenue,,,,,94306,,e56575eeff8f3505,America/Los_Angeles
+-122.1308885,37.4391303,822,Garland Drive,,,,,94303,,150794e372bcd168,America/Los_Angeles
+-122.1455364,37.4267847,413,Cambridge Avenue,,,,,94306,,0b28003af5313bc0,America/Los_Angeles
+-122.147846,37.423431,728,California Avenue,,,,,94306,,aa8c6349cad0927b,America/Los_Angeles
+-122.1490219,37.4454449,1130,Middlefield Road,,,,,94303,,b4683f58a1c5a833,America/Los_Angeles
+-122.1537532,37.4193374,1430,College Avenue,,,,,94306,,670c68ba6e5713d9,America/Los_Angeles
+-122.1307575,37.4392594,826,Garland Drive,,,,,94303,,44bdd7fbb5b08d01,America/Los_Angeles
+-122.1474822,37.4252224,550,Cambridge Avenue,,,,,94306,,abd26a8b5d2eef09,America/Los_Angeles
+-122.1432479,37.4430868,1525,Middlefield Road,,,,,94301,,47b855728f7de8dc,America/Los_Angeles
+-122.147869,37.4234033,730,California Avenue,,,,,94306,,0486f710d0ba7e81,America/Los_Angeles
+-122.1537047,37.4193962,1420,College Avenue,,,,,94306,,c2329b993666891e,America/Los_Angeles
+-122.1306403,37.4393713,830,Garland Drive,,,,,94303,,a467057c760684c1,America/Los_Angeles
+-122.1477532,37.4251386,568,Cambridge Avenue,,,,,94306,,ff384d309757c560,America/Los_Angeles
+-122.1458263,37.4442526,1305,Middlefield Road,,,,,94301,,c5571a143a326452,America/Los_Angeles
+-122.1478906,37.4233773,740,California Avenue,,,,,94306,,f6fa8fef05a27511,America/Los_Angeles
+-122.1534414,37.4193967,1400,College Avenue,,,,,94306,,9aa72c7e8a79dad1,America/Los_Angeles
+-122.1305098,37.4395033,836,Garland Drive,,,,,94303,,1b8c2f487060311b,America/Los_Angeles
+-122.1476629,37.424917,572,Cambridge Avenue,,,,,94306,,da1cc10e3fad8638,America/Los_Angeles
+-122.1488779,37.4453729,1142,Middlefield Road,,,,,94303,,a6c802690d6b21bb,America/Los_Angeles
+-122.1481029,37.4232409,760,California Avenue,,,,,94306,,f5aa349eb2110fb7,America/Los_Angeles
+-122.153234,37.4196615,1386,College Avenue,,,,,94306,,e6b84425f11d7e1a,America/Los_Angeles
+-122.1303696,37.4396189,848,Garland Drive,,,,,94303,,3a3df9c117feeddd,America/Los_Angeles
+-122.1478288,37.4249983,580,Cambridge Avenue,,,,,94306,,bb55104322c99edd,America/Los_Angeles
+-122.1407057,37.4426838,784,Embarcadero Road,,,,,94303,,9ef24c6a446739ce,America/Los_Angeles
+-122.1487417,37.4453089,1146,Middlefield Road,,,,,94303,,665d4c855ec01372,America/Los_Angeles
+-122.1533865,37.4188654,1467,College Avenue,,,,,94306,,62b838e5b29d6e50,America/Los_Angeles
+-122.1302247,37.4397392,858,Garland Drive,,,,,94303,,354849886e0f5c2e,America/Los_Angeles
+-122.1328487,37.4450386,930,Embarcadero Road,,,,,94303,,4540b8ff65ba94cc,America/Los_Angeles
+-122.1079351,37.4181735,4000,Middlefield Road,,,,,94303,,e619051d9fc02bad,America/Los_Angeles
+-122.1459201,37.4271559,422,Cambridge Avenue,,,,,94301,,be8f4244f6a45dec,America/Los_Angeles
+-122.1530386,37.4195362,1385,College Avenue,,,,,94306,,dc7d8fe6746f59bb,America/Los_Angeles
+-122.1300764,37.4398368,862,Garland Drive,,,,,94303,,c6fd955d464e827d,America/Los_Angeles
+-122.1188091,37.4505219,1735,Embarcadero Road,,,,,94303,,9ffcd877ab526679,America/Los_Angeles
+-122.1450879,37.4276062,367,Cambridge Avenue,,,,,94306,,5c9e685e6074809a,America/Los_Angeles
+-122.1102725,37.419449,3900,Middlefield Road,,,,,94303,,b28432aff7a9eaa8,America/Los_Angeles
+-122.1348355,37.4083302,939,Shauna Lane,,,,,94306,,5036e40d68a33e8f,America/Los_Angeles
+-122.1301475,37.4406707,879,Garland Drive,,,,,94303,,0b053b3c9a6d7e51,America/Los_Angeles
+-122.1181804,37.4496286,1730,Embarcadero Road,,,,,94303,,ee12e0f73960d861,America/Los_Angeles
+-122.1259185,37.440559,914,Celia Drive,,,,,94303,,6f8781a01dc915f6,America/Los_Angeles
+-122.1102943,37.4188645,3920,Middlefield Road,,,,,94303,,907e22e2fac9b693,America/Los_Angeles
+-122.1347057,37.4084807,923,Shauna Lane,,,,,94306,,dfd3e1bc65230737,America/Los_Angeles
+-122.1308255,37.4400318,853,Garland Drive,,,,,94303,,35c69baf35e8297d,America/Los_Angeles
+-122.1189596,37.4495742,1700,Embarcadero Road,,,,,94303,,f9f2761048be0d69,America/Los_Angeles
+-122.1260151,37.4404115,910,Celia Drive,,,,,94303,,3c96ea3a45c3d4f8,America/Los_Angeles
+-122.1102218,37.418805,3922,Middlefield Road,,,,,94303,,07f5a6b53d6b6d6a,America/Los_Angeles
+-122.1353497,37.4083953,946,Shauna Lane,,,,,94306,,07b89d8c453082b9,America/Los_Angeles
+-122.1499905,37.4428212,1211,Cowper Street,,,,,94301,,5a3060cb741312a8,America/Los_Angeles
+-122.1260605,37.4410748,931,Celia Drive,,,,,94303,,86ce9f8f10b8b2eb,America/Los_Angeles
+-122.1563871,37.4371483,50,Embarcadero Road,,,,,94301,,509c9636b76aaee3,America/Los_Angeles
+-122.1354857,37.4082671,960,Shauna Lane,,,,,94306,,8b55cc3b456880e3,America/Los_Angeles
+-122.1091173,37.4186321,3968,Middlefield Road,,,,,94303,,eaae8de6e7ac93a1,America/Los_Angeles
+-122.1498292,37.4427351,1225,Cowper Street,,,,,94301,,f0dbe7d832c8630c,America/Los_Angeles
+-122.1263801,37.4408359,915,Celia Drive,,,,,94303,,9b140d39a3db798e,America/Los_Angeles

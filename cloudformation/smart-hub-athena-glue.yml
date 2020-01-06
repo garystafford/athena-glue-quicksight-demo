@@ -1,0 +1,406 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Glue Database, Tables, Crawlers, ETL Jobs, and Crawler IAM Role for Athena-Glue demo."
+Parameters:
+  DataBucketName:
+    Type: String
+    Description: "S3 bucket that holds data for demo"
+  ScriptBucketName:
+    Type: String
+    Description: "S3 bucket that holds data for demo"
+  LogBucketName:
+    Type: String
+    Description: "S3 bucket that holds Spark ETL Job logs for demo"
+  GlueDatabaseName:
+    Type: String
+    Description: "Name of Glue Data Catalog for demo"
+    Default: "smart_hub_data_catalog"
+Resources:
+  DataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref DataBucketName
+  ScriptBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref ScriptBucketName
+  LogBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref LogBucketName
+  GlueDatabase:
+    Type: AWS::Glue::Database
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseInput:
+        Description: "Smart Hub Data Catalog"
+        Name: !Ref GlueDatabaseName
+  UsageTable:
+    DependsOn:
+      - GlueDatabase
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref GlueDatabase
+      TableInput:
+        Name: smart_hub_data_json
+        Description: Smart Hub electrical usage (JSON)
+        TableType: EXTERNAL_TABLE
+        Parameters: { "classification": "json", "compressionType": "none" }
+        PartitionKeys:
+        - Name: dt
+          Type: date
+        StorageDescriptor:
+          OutputFormat: org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat
+          Columns:
+          - Name: loc_id
+            Type: string
+          - Name: ts
+            Type: bigint
+          - Name: data
+            Type: struct<s_01:double,s_02:double,s_03:double,s_04:double,s_05:double,s_06:double,s_07:double,s_08:double,s_09:double,s_10:double>
+          InputFormat: org.apache.hadoop.mapred.TextInputFormat
+          Location: !Join ["", ["s3://", !Ref "DataBucket", "/smart_hub_data_json"]]
+          SerdeInfo:
+            Parameters:
+              field.delim: ","
+            SerializationLibrary: org.openx.data.jsonserde.JsonSerDe
+  MappingsTable:
+    DependsOn:
+      - GlueDatabase
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref GlueDatabase
+      TableInput:
+        Name: sensor_mappings_json
+        Description: Smart Hub sensor mappings (JSON)
+        TableType: EXTERNAL_TABLE
+        Parameters: { "classification": "json", "compressionType": "none" }
+        PartitionKeys:
+        - Name: state
+          Type: string
+        StorageDescriptor:
+          OutputFormat: org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat
+          Columns:
+          - Name: loc_id
+            Type: string
+          - Name: id
+            Type: string
+          - Name: description
+            Type: string
+          - Name: location
+            Type: string
+          - Name: watts
+            Type: int
+          - Name: last_modified
+            Type: int
+          InputFormat: org.apache.hadoop.mapred.TextInputFormat
+          Location: !Join ["", ["s3://", !Ref "DataBucket", "/sensor_mappings_json"]]
+          SerdeInfo:
+            Parameters:
+              field.delim: ","
+            SerializationLibrary: org.openx.data.jsonserde.JsonSerDe
+  LocationsTable:
+    DependsOn:
+      - GlueDatabase
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref GlueDatabase
+      TableInput:
+        Name: smart_hub_locations_csv
+        Description: Smart Hub locations (CSV)
+        TableType: EXTERNAL_TABLE
+        Parameters: { "classification": "csv", "compressionType": "none" }
+        PartitionKeys:
+        - Name: state
+          Type: string
+        StorageDescriptor:
+          OutputFormat: org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat
+          Columns:
+          - Name: lon
+            Type: double
+          - Name: lat
+            Type: double
+          - Name: number
+            Type: string
+          - Name: street
+            Type: string
+          - Name: unit
+            Type: string
+          - Name: city
+            Type: string
+          - Name: district
+            Type: string
+          - Name: region
+            Type: string
+          - Name: postcode
+            Type: int
+          - Name: id
+            Type: string
+          - Name: hash
+            Type: string
+          - Name: tz
+            Type: string
+          InputFormat: org.apache.hadoop.mapred.TextInputFormat
+          Location: !Join ["", ["s3://", !Ref "DataBucket", "/smart_hub_locations_csv"]]
+          SerdeInfo:
+            Parameters:
+              field.delim: ","
+            SerializationLibrary: org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe
+  RatesTable:
+    DependsOn:
+      - GlueDatabase
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref GlueDatabase
+      TableInput:
+        Name: electricity_rates_xml
+        Description: Electricity rates by year, month, and state (XML)
+        TableType: EXTERNAL_TABLE
+        Parameters: { "classification": "xml", "compressionType": "none" }
+        StorageDescriptor:
+          OutputFormat: org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat
+          Columns:
+            - Name: from
+              Type: string
+            - Name: month
+              Type: int
+            - Name: rate
+              Type: double
+            - Name: state
+              Type: string
+            - Name: to
+              Type: string
+            - Name: type
+              Type: string
+            - Name: year
+              Type: int
+          InputFormat: org.apache.hadoop.mapred.TextInputFormat
+          Location: !Join ["", ["s3://", !Ref "DataBucket", "/electricity_rates_xml"]]
+          SerdeInfo:
+            Parameters:
+              field.delim: ","
+            SerializationLibrary: org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe
+  ETLParquetTmpDataTable:
+    DependsOn:
+      - GlueDatabase
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseName: !Ref GlueDatabase
+      TableInput:
+        Name: etl_tmp_output_parquet
+        Description: ETL data (Parquet)
+        TableType: EXTERNAL_TABLE
+        Parameters: { "has_encrypted_data": "false",
+                      "parquet.compression": "SNAPPY",
+                      "classification": "parquet",
+                      "compressionType": "none"
+        }
+        PartitionKeys:
+          - Name: loc_id
+            Type: string
+        StorageDescriptor:
+          OutputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat
+          Columns:
+            - Name: ts
+              Type: string
+            - Name: device
+              Type: string
+            - Name: location
+              Type: string
+            - Name: type
+              Type: string
+            - Name: kwh
+              Type: double
+            - Name: cents_per_kwh
+              Type: double
+            - Name: cost
+              Type: double
+            - Name: state
+              Type: string
+          InputFormat: org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat
+          Location: !Join ["", ["s3://", !Ref "DataBucket", "/etl_tmp_output_parquet"]]
+          SerdeInfo:
+            SerializationLibrary: org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe
+  CrawlerRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: SmartHubCrawlerRole
+      AssumeRolePolicyDocument:
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - glue.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      Path: /
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole
+      Policies:
+        - PolicyName: DemoCrawlerPolicy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:PutObject
+                  - s3:DeleteObject
+                Resource: "*"
+  CrawlerLocations:
+    Type: AWS::Glue::Crawler
+    Properties:
+      Name: smart-hub-locations-csv
+      Role: !GetAtt "CrawlerRole.Arn"
+      Targets:
+        CatalogTargets:
+          - DatabaseName: !Ref GlueDatabase
+            Tables:
+              - !Ref LocationsTable
+      SchemaChangePolicy:
+        UpdateBehavior: "UPDATE_IN_DATABASE"
+        DeleteBehavior: "LOG"
+      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
+    DependsOn:
+      - CrawlerRole
+      - GlueDatabase
+      - DataBucket
+  CrawlerMappings:
+    Type: AWS::Glue::Crawler
+    Properties:
+      Name: smart-hub-sensor-mappings-json
+      Role: !GetAtt "CrawlerRole.Arn"
+      Targets:
+        CatalogTargets:
+          - DatabaseName: !Ref GlueDatabase
+            Tables:
+              - !Ref MappingsTable
+      SchemaChangePolicy:
+        UpdateBehavior: "UPDATE_IN_DATABASE"
+        DeleteBehavior: "LOG"
+      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
+    DependsOn:
+      - CrawlerRole
+      - GlueDatabase
+      - DataBucket
+  CrawlerUsageData:
+    Type: AWS::Glue::Crawler
+    Properties:
+      Name: smart-hub-data-json
+      Role: !GetAtt "CrawlerRole.Arn"
+      Targets:
+        CatalogTargets:
+          - DatabaseName: !Ref GlueDatabase
+            Tables:
+              - !Ref UsageTable
+      SchemaChangePolicy:
+        UpdateBehavior: "UPDATE_IN_DATABASE"
+        DeleteBehavior: "LOG"
+      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
+    DependsOn:
+      - CrawlerRole
+      - GlueDatabase
+      - DataBucket
+  CrawlerRates:
+    Type: AWS::Glue::Crawler
+    Properties:
+      Name: smart-hub-rates-xml
+      Role: !GetAtt "CrawlerRole.Arn"
+      Targets:
+        CatalogTargets:
+          - DatabaseName: !Ref GlueDatabase
+            Tables:
+              - !Ref RatesTable
+      SchemaChangePolicy:
+        UpdateBehavior: "UPDATE_IN_DATABASE"
+        DeleteBehavior: "LOG"
+      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
+    DependsOn:
+      - CrawlerRole
+      - GlueDatabase
+      - DataBucket
+  CrawlerRatesParquet:
+    Type: AWS::Glue::Crawler
+    Properties:
+      Name: smart-hub-rates-parquet
+      Role: !GetAtt "CrawlerRole.Arn"
+      Targets:
+        S3Targets:
+          - Path: !Join ["", ["s3://", !Ref "DataBucket", "/electricity_rates_parquet"]]
+      DatabaseName: !Ref GlueDatabase
+      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
+    DependsOn:
+      - CrawlerRole
+      - GlueDatabase
+      - DataBucket
+  CrawlerETLParquetTmpData:
+    Type: AWS::Glue::Crawler
+    Properties:
+      Name: smart-hub-etl-tmp-output-parquet
+      Role: !GetAtt "CrawlerRole.Arn"
+      Targets:
+        CatalogTargets:
+          - DatabaseName: !Ref GlueDatabase
+            Tables:
+              - !Ref ETLParquetTmpDataTable
+      SchemaChangePolicy:
+        UpdateBehavior: "UPDATE_IN_DATABASE"
+        DeleteBehavior: "LOG"
+      Configuration: "{\"Version\":1.0,\"CrawlerOutput\":{\"Partitions\":{\"AddOrUpdateBehavior\":\"InheritFromTable\"},\"Tables\":{\"AddOrUpdateBehavior\":\"MergeNewColumns\"}}}"
+    DependsOn:
+      - CrawlerRole
+      - GlueDatabase
+      - DataBucket
+  GlueJobRatesToParquet:
+    Type: AWS::Glue::Job
+    Properties:
+      GlueVersion: 1.0
+      Command:
+        Name: glueetl
+        PythonVersion: 3
+        ScriptLocation: !Sub "s3://${ScriptBucketName}/glue_scripts/rates_xml_to_parquet.py"
+      DefaultArguments: {
+          "--s3_output_path": !Sub "s3://${DataBucketName}/electricity_rates_parquet",
+          "--source_glue_database": !Ref GlueDatabase,
+          "--source_glue_table": "electricity_rates_xml",
+          "--job-bookmark-option": "job-bookmark-enable",
+          "--enable-spark-ui": "true",
+          "--spark-event-logs-path": !Sub "s3://${LogBucketName}/glue-etl-jobs/"
+      }
+      Description: "Convert electrical rates XML data to Parquet"
+      ExecutionProperty:
+        MaxConcurrentRuns: 2
+      MaxRetries: 0
+      Name: rates-xml-to-parquet
+      Role: !GetAtt "CrawlerRole.Arn"
+    DependsOn:
+      - CrawlerRole
+      - GlueDatabase
+      - DataBucket
+      - ScriptBucket
+      - LogBucket
+Outputs:
+  DataBucketExport:
+    Description: "S3 bucket that holds data for demo"
+    Value: !Ref DataBucket
+    Export:
+      Name: !Join [ "-", [ !Ref "AWS::StackName", "DataBucket" ] ]
+  ScriptBucketExport:
+    Description: "S3 bucket that holds scripts for demo"
+    Value: !Ref ScriptBucket
+    Export:
+      Name: !Join [ "-", [ !Ref "AWS::StackName", "ScriptBucket" ] ]
+  LogBucketExport:
+    Description: "S3 bucket that holds Spark ETL Job logs for demo"
+    Value: !Ref LogBucket
+    Export:
+      Name: !Join [ "-", [ !Ref "AWS::StackName", "LogBucket" ] ]
+  GlueDatabaseExport:
+    Description: "Glue Data Catalog for demo"
+    Value: !Ref GlueDatabase
+    Export:
+      Name: !Join [ "-", [ !Ref "AWS::StackName", "GlueDatabase" ] ]
