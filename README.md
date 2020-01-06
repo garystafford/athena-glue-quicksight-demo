@@ -13,7 +13,7 @@ git clone \
     https://github.com/garystafford/athena-glue-quicksight-demo.git
 
 # step 1 (change me)
-BUCKET_SUFFIX="demo-account-1-us-east-1"
+BUCKET_SUFFIX="your-account-and-region"
 DATA_BUCKET="smart-hub-data-${BUCKET_SUFFIX}"
 SCRIPT_BUCKET="smart-hub-scripts-${BUCKET_SUFFIX}"
 LOG_BUCKET="smart-hub-logs-${BUCKET_SUFFIX}"
