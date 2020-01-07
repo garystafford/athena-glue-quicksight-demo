@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Amazon Athena - demo-account-1" uuid="a24d895e-ef9d-4426-a557-fdf54712dddf">
+      <driver-ref>b101b916-32ce-4b30-bc18-3c33d76d6ff5</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <remarks>demo-account-1 in us-east-1</remarks>
+      <jdbc-driver>com.simba.athena.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:awsathena://AwsRegion=us-east-1;S3OutputLocation=s3://smart-hub-data-demo-account-1-us-east-1/demo-results</jdbc-url>
+    </data-source>
+  </component>
+</project>
