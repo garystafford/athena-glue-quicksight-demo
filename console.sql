@@ -3,6 +3,7 @@ SELECT *
 FROM smart_hub_data_catalog.etl_output_parquet
 LIMIT 10;
 
+
 -- total cost in $'s for each device, at location 'b6a8d42425fde548'
 -- from high to low, on December 21, 2019
 SELECT device,
@@ -13,6 +14,7 @@ WHERE loc_id = 'b6a8d42425fde548'
 GROUP BY device
 ORDER BY total_cost DESC;
 
+
 -- count of smart hub residential locations in Oregon and California,
 -- grouped by zip code, sorted by count
 SELECT DISTINCT postcode, upper(state), count(postcode) AS smart_hub_count
@@ -21,6 +23,7 @@ WHERE state IN ('or', 'ca')
     AND length(cast(postcode AS varchar)) >= 5
 GROUP BY state, postcode
 ORDER BY smart_hub_count DESC, postcode;
+
 
 -- electrical usage for the clothes washer
 -- over a 30-minute period, on December 21, 2019
