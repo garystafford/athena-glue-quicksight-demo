@@ -111,7 +111,7 @@ Resources:
         Name: smart_hub_locations_csv
         Description: Smart Hub locations (CSV)
         TableType: EXTERNAL_TABLE
-        Parameters: { "classification": "csv", "compressionType": "none" }
+        Parameters: { "classification": "csv", "compressionType": "none", "skip.header.line.count": "1" }
         PartitionKeys:
         - Name: state
           Type: string

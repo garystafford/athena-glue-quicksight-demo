@@ -170,15 +170,15 @@ for table in ${tables}; do
   fixed_table=$(aws glue get-table \
       --database-name "${database}" \
       --name "${table}" \
-      | jq '.Table.Parameters.classification = "parquet" | del(.Table.DatabaseName) | del(.Table.CreateTime) | del(.Table.UpdateTime) | del(.Table.CreatedBy) | del(.Table.IsRegisteredWithLakeFormation)')
+      | jq '.Table.Parameters["classification"] = "parquet" | del(.Table.DatabaseName) | del(.Table.CreateTime) | del(.Table.UpdateTime) | del(.Table.CreatedBy) | del(.Table.IsRegisteredWithLakeFormation)')
 
-  fixed_table=$(echo ${fixed_table} | jq .Table)
+  fixed_table=$(echo "${fixed_table}" | jq .Table)
 
   aws glue update-table \
-  --database-name "${database}" \
+    --database-name "${database}" \
     --table-input "${fixed_table}"
 
-  echo "table '${table}' classification changed to 'parquet'"
+  echo "table '${table}' fixed"
 done
 
 # get list of tables
