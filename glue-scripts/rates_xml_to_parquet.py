@@ -4,6 +4,7 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
+from awsglue.dynamicframe import DynamicFrame
 
 args = getResolvedOptions(sys.argv, [
     'JOB_NAME',
@@ -48,8 +49,13 @@ dropnullfields3 = DropNullFields.apply(
     frame=resolvechoice2,
     transformation_ctx="dropnullfields3")
 
+# coalesce parquet into one
+# https://github.com/aws-samples/aws-glue-samples/blob/master/FAQ_and_How_to.md
+partitioned_dataframe = dropnullfields3.toDF().repartition(1)
+partitioned_dynamicframe = DynamicFrame.fromDF(partitioned_dataframe, glueContext, "partitioned_df")
+
 datasink4 = glueContext.write_dynamic_frame.from_options(
-    frame=dropnullfields3,
+    frame=partitioned_dynamicframe,
     connection_type="s3",
     connection_options={
         "path": s3_output_path,
