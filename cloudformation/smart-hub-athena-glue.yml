@@ -361,9 +361,12 @@ Resources:
   CrawlerETLParquetData:
     Type: AWS::Glue::Crawler
     Properties:
-      Name: smart-hub-etl-output-parquet
+       Name: smart-hub-etl-output-parquet
       Role: !GetAtt "CrawlerRole.Arn"
       Targets:
+        S3Targets:
+          - Path: !Join ["", ["s3://", !Ref "DataBucket", "/etl_output_parquet"]]
+      DatabaseName: !Ref GlueDatabase
         CatalogTargets:
           - DatabaseName: !Ref GlueDatabase
             Tables:
